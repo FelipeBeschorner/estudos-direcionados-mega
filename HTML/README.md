@@ -192,115 +192,163 @@ Usado para fazer comentários que não aparecem no navegador.
 ***
 ## Formatação
 ***
-<tag>
+## `<abbr>`
  
-Descrição da tag.
+Define uma abreviação e opcionalmente uma descrição completa.
 
-``` ex codigo ```
+```html
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<address>`
  
-Descrição da tag.
+Fornece informações de contato ao seu ancestral `<article>` ou `<body>` mais próximo. Pode ser um e-mail, URL, endereço físico, telefone, mídia social. 
 
-``` ex codigo ```
+```html
+<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<b>`
  
-Descrição da tag.
+Negrito. Apenas usado em último caso e sem qualquer importância extra.
 
-``` ex codigo ```
+```html
+<p>This is normal text - <b>and this is bold text</b>.</p>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<bdi>`
  
-Descrição da tag.
+Isolamento Bidirecional. Isola parte do texto que pode ser formatada de forma diferente do que está fora dela. Refere-se a diferentes linguas.
 
-``` ex codigo ```
+```html
+<ul>
+  <li>User <bdi>hrefs</bdi>: 60 points</li>
+  <li>User <bdi>jdoe</bdi>: 80 points</li>
+  <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<bdo>`
  
-Descrição da tag.
+Inverte a direção do texto atual. Escreve de trás pra frente. 
 
-``` ex codigo ```
+```html
+<bdo dir="rtl">
+This text will go right-to-left.
+</bdo>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<blockquote>`
  
-Descrição da tag.
+Define longas citações de outras fontes, criando margem recuada.
 
-``` ex codigo ```
+```html
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<cite>`
  
-Descrição da tag.
+Usado para citar o nome de uma obra artística. Deve conter o nome da obra ou uma referência de URL
 
-``` ex codigo ```
+```html
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<code>`
  
-Descrição da tag.
+Apresenta de forma estilizada um trecho de código.
 
-``` ex codigo ```
+```html
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<del>`
  
-Descrição da tag.
+Define um texto que foi excluido do arquivo. Pode ser não renderizado ou riscado nos navegadores.
 
-``` ex codigo ```
+```html
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<dfn>`
  
-Descrição da tag.
+Especifica um termo que será definido dentro do conteúdo.
 
-``` ex codigo ```
+```html
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<em>`
  
-Descrição da tag.
+Utilizado para dar ênfase. Normalmente exibido em itálico.
 
-``` ex codigo ```
+```html
+<p>You <em>have</em> to hurry up!</p>
+
+<p>We <em>cannot</em> live like this.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
+***
+***
+***
+***
+***
+***
+***
+***
 ***
 <tag>
  
