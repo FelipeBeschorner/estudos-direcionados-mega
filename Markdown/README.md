@@ -79,7 +79,7 @@
 4. Ex:
 > - [x] Estudar mais um pouco.
 > - [ ] Parar pra relaxar.
-
+***
 ## Referencias
 [Link 1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [Link 2](https://guides.github.com/features/mastering-markdown/)
