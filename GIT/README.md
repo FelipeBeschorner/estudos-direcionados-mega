@@ -26,13 +26,13 @@ A partir disso ele também é capaz de identificar a versão do objeto seleciona
 
 # Principais Comandos
 * git init
-  * inicializa um dieretorio.
+  * inicia o GIT no diretório.
 * git clone
-  * clona um diretorio.
+  * clona um diretório.
 * git status
   * mostra os objetos em modificação.
 * git add
-  * adiciona um novo aquivo no diretorio.
+  * adiciona um novo aquivo na árvore de mudanças do GIT.
 * git log
   * mostra o histrico de ações.
 * git rm
@@ -40,9 +40,9 @@ A partir disso ele também é capaz de identificar a versão do objeto seleciona
 * echo "" > "file".
   * adiciona uma mensagem para a criação de um arquivo.
 * dir
-  * mostra o diretorio atual.
+  * mostra o diretório atual.
 * cd
-  * navega entre os diretorios.
+  * navega entre os diretórios.
 * git stash
   * salva as modificações nos staged.
 * git diff
@@ -54,7 +54,7 @@ A partir disso ele também é capaz de identificar a versão do objeto seleciona
 *  code
   * abre o Markdown no VS Code.
 * mkdir
-  * cria um diretorio.
+  * cria um diretório.
 * ls
-  * lista os arquivos de um diretorio.
+  * lista os arquivos de um diretório.
 * 
