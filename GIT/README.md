@@ -57,4 +57,10 @@ A partir disso ele também é capaz de identificar a versão do objeto seleciona
   * cria um diretório.
 * ls
   * lista os arquivos de um diretório.
+* git fetch
+  * baixa o conteudo de outras brachs.
+* git checkout
+  * cria uma nova brach.
+* git merge
+  *faz uma unção de dois códigos.
 ***
