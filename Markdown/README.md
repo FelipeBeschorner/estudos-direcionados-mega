@@ -1,6 +1,11 @@
 # Documentação Markdown
 >### Para a visualização utilizar ctrl+k e v.
 ***
+Linguagens de marcação são utilizadas para definir formatos, exibições e padrões em documentos. Não possuem situações condicionais e repetição, então são normalmente utilizadas para exibição ou estruturação de dados. Algumas das mais populares são:
+* HTML
+* XHTML
+* SGML
+* XML
 ## 1. Tamanhos de Letra
 1. O tamanho é definido pelo caracter **#**. 
 2. Varia entre 1 e 6.
@@ -80,13 +85,6 @@
 > - [x] Estudar mais um pouco.
 > - [ ] Parar pra relaxar.
 ***
-## 11. Linguagens de Marcação
-Linguagens de marcação são utilizadas para definir formatos, exibições e padrões em documentos. Não possuem situações condicionais e repetição, então são normalmente utilizadas para exibição ou estruturação de dados. Algumas das mais populares são:
-* HTML
-* XHTML
-* SGML
-* XML
-  
 ## Referencias
 [Link 1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [Link 2](https://guides.github.com/features/mastering-markdown/)
