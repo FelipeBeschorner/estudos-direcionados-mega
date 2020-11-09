@@ -62,5 +62,5 @@ A partir disso ele também é capaz de identificar a versão do objeto seleciona
 * git checkout
   * cria uma nova brach.
 * git merge
-  *faz uma unção de dois códigos.
+  * faz uma unção de dois códigos.
 ***
