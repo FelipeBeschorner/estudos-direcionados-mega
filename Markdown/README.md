@@ -1,5 +1,5 @@
 # Documentação Markdown
->### Para a visualização utilizar ctrl+l e v.
+>### Para a visualização utilizar ctrl+k e v.
 ***
 ## 1. Tamanhos de Letra
 1. O tamanho é definido pelo caracter **#**. 
@@ -72,7 +72,7 @@
 1. Para criar uma nota coloca-se **>** no começo da frase. Ex:
 > nota.
 ***
-## Tasklist
+## 10. Tasklist
 1. É possivel criar listas de taerefas. 
 2. **- [ ]** para tearefas incompletas.
 3. **- [x]** para tarefas completas.
@@ -80,6 +80,13 @@
 > - [x] Estudar mais um pouco.
 > - [ ] Parar pra relaxar.
 ***
+## 11. Linguagens de Marcação
+Linguagens de marcação são utilizadas para definir formatos, exibições e padrões em documentos. Não possuem situações condicionais e repetição, então são normalmente utilizadas para exibição ou estruturação de dados. Algumas das mais populares são:
+* HTML
+* XHTML
+* SGML
+* XML
+  
 ## Referencias
 [Link 1](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [Link 2](https://guides.github.com/features/mastering-markdown/)

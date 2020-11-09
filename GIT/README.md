@@ -31,7 +31,7 @@ A partir disso ele também é capaz de identificar a versão do objeto seleciona
   * clona um diretório.
 * git status
   * mostra os objetos em modificação.
-* git add
+* git add -A
   * adiciona um novo aquivo na árvore de mudanças do GIT.
 * git log
   * mostra o histrico de ações.
@@ -47,14 +47,14 @@ A partir disso ele também é capaz de identificar a versão do objeto seleciona
   * salva as modificações nos staged.
 * git diff
   * mostra as diferenças não staged.
-* git commit
-  * salva uma snapshot do objeto selecionado.
+* git commit -m "msgm"
+  * salva uma snapshot do objeto selecionado com uma descrição.
 * git help
   * mostra uma série de comandos possiveis.
 *  code
-  * abre o Markdown no VS Code.
+   * abre o Markdown no VS Code.
 * mkdir
   * cria um diretório.
 * ls
   * lista os arquivos de um diretório.
-* 
+***
