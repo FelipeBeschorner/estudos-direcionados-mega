@@ -176,7 +176,7 @@ Quebra temática de elementos de nível parágrafo.
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-## `<! --...-->`
+## `<!--...-->`
  
 Usado para fazer comentários que não aparecem no navegador.
 
@@ -342,889 +342,1562 @@ Utilizado para dar ênfase. Normalmente exibido em itálico.
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-***
-***
-***
-***
-***
-***
-***
-***
-<tag>
+## `<i>`
  
-Descrição da tag.
+Coloca o texto em itálico. Destaca o texto por algum motivo, como: termos técnicos, outros idiomas ou pensamentos de personagens fictícios.
 
-``` ex codigo ```
+```html
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+<p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<ins>`
  
-Descrição da tag.
+Sublinha o texto. Define o texto que foi inserido no arquivo.
 
-``` ex codigo ```
+```html
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<kbd>`
  
-Descrição da tag.
+Entrada por teclado. O texto é exibino de forma menos espaçada.
 
-``` ex codigo ```
+```html
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<mark>`
  
-Descrição da tag.
+Representa o trecho como destacado. O texto é exibido com marca-texto.
 
-``` ex codigo ```
+```html
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<meter>`
  
-Descrição da tag.
+Representa um valor escalar em um intervalo conhecido ou fracionário. Também conhecido como medidor.
 
-``` ex codigo ```
+```html
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<pre>`
  
-Descrição da tag.
+Representa um texto pré-formatado. O texto é exibido da mesma forma que no HTML.
 
-``` ex codigo ```
+```html
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<progress>`
  
-Descrição da tag.
+Representa o andamento ou progresso de uma tarefa.
 
-``` ex codigo ```
+```html
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<q>`
  
-Descrição da tag.
+Define um pequena citação. Inclui atributos globais. Normalmente representado enrte aspas.
 
-``` ex codigo ```
+```html
+<p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<rp>`
  
-Descrição da tag.
+Fornece perenteses ao redor de textos ruby.
 
-``` ex codigo ```
+```html
+<ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<rt>`
  
-Descrição da tag.
+Define uma explicação ou pronuncia de caracteres diferentes em uma anotação ruby.
 
-``` ex codigo ```
+```html
+<ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<ruby>`
  
-Descrição da tag.
+Representa uma anotação ruby, que mostram a prunucia de caracteres do Leste Asiático.
 
-``` ex codigo ```
+```html
+<ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<s>`
  
-Descrição da tag.
+Especifica um texto que não possui mais conteudo relevante. É exibido com uma linha atravessada.
 
-``` ex codigo ```
+```html
+<p><s>Only 50 tickets left!</s></p>
+<p>SOLD OUT!</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<samp>`
  
-Descrição da tag.
+Define a saida de uma amostra de computador. O texto é menoespaçado.
 
-``` ex codigo ```
+```html
+<p>Message from my computer:</p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<small>`
  
-Descrição da tag.
+Define um texto com fonte menor.
 
-``` ex codigo ```
+```html
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<strong>`
  
-Descrição da tag.
+Define um texto como importante. Normalmente exibido em negrito.
 
-``` ex codigo ```
+```html
+<strong>This text is important!</strong>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<sub>`
  
-Descrição da tag.
+Escreve o texto meia linha baixo e em fonte menor. Normalmente utilizado em formulas quimicas.
 
-``` ex codigo ```
+```html
+<p>This text contains <sub>subscript</sub> text.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<sup>`
  
-Descrição da tag.
+Escreve o texto meia linha acima e em fonte menor. Utilizados como nota de rodapé.
 
-``` ex codigo ```
+```html
+<p>This text contains <sup>superscript</sup> text.</p>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<template>`
  
-Descrição da tag.
+O conteúdo dentro esta encapsulado em um conteiner que não é renderizado para o cliente, mas pode ser instanciado posteriormente com JavaScript.
 
-``` ex codigo ```
+```html
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<time>`
  
-Descrição da tag.
+Define uma hora específica. É utilizado para traduzir a hora para a maquina permitindo resultados mais inteligentes.
 
-``` ex codigo ```
+```html
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<u>`
  
-Descrição da tag.
+Representa um texto não articulado e com estilo diferente do normal. O texto é exibido sublinhado.
 
-``` ex codigo ```
+```html
+<p>This is some <u>mispeled</u> text.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<var>`
  
-Descrição da tag.
+Representa um elemento matemático ou contexto de programação. conteúdo exibido em itálico.
 
-``` ex codigo ```
+```html
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<wbr>`
  
-Descrição da tag.
+Define uma possivel quebra de linha.
 
-``` ex codigo ```
+```html
+<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Formas e Entradas`
-<tag>
+## `<form>`
  
-Descrição da tag.
+Representa uma seção que contem controles interativos que permitem que o cliente interagir com um servido web. Cria um formulario HTML para a entrada do Usuário.
 
-``` ex codigo ```
+```html
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<input>`
  
-Descrição da tag.
+Especifica um campo que o Usuário pode entrar com dados. Pode ser exibido de diferentes maneiras dependendo do atributo.
 
-``` ex codigo ```
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<textarea>`
  
-Descrição da tag.
+Define o controle de entrada de várias linhas. Normalmente utilizado para análises ou observações.
 
-``` ex codigo ```
+```html
+<label for="w3review">Review of W3Schools:</label>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<button>`
  
-Descrição da tag.
+Representa um botão clicável, que pode ser adicionado texto.
 
-``` ex codigo ```
+```html
+<button type="button">Click Me!</button>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<select>`
  
-Descrição da tag.
+Usado para criar listas suspensas e formulários para coletar entradas do usuário.
 
-``` ex codigo ```
+```html
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<optgroup>`
  
-Descrição da tag.
+Cria um agrupamento de opcções dentro de uma tag select.
 
-``` ex codigo ```
+```html
+<label for="cars">Choose a car:</label>
+<select  name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<option>`
  
-Descrição da tag.
+Usado para criar um controle que representa um item dentro de um elemento HTML5. Define os elementos de uma lista.
 
-``` ex codigo ```
+```html
+<label for="cars">Choose a car:</label>
+
+<select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<label>`
  
-Descrição da tag.
+Define um rotulo para vários elementos.
 
-``` ex codigo ```
+```html
+<form action="/action_page.php">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+</form>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<fieldset>`
  
-Descrição da tag.
+Usado para relacionar elementos semelhantes em uma tag label e desenha uma caixa ao redor dos elementos relacionados.
 
-``` ex codigo ```
+```html
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<legend>`
  
-Descrição da tag.
+Define uma legenda para a tag fieldset.
 
-``` ex codigo ```
+```html
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<datalist>`
  
-Descrição da tag.
+Apresenta uma lista de opções para a tag input ou outras tags.
 
-``` ex codigo ```
+```html
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<output>`
  
-Descrição da tag.
+Usado para apresentar ao Usuário o resultado de um calculo ou ação.
 
-``` ex codigo ```
+```html
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Frames`
-<tag>
+## `<iframe>`
  
-Descrição da tag.
+Especifica um quadro embutido, que carrega outros arquivos HTML.
 
-``` ex codigo ```
+```html
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `imagens`
-<tag>
+## `<img>`
  
-Descrição da tag.
+Representa a inserção de uma imagem no arquivo HTML5.
 
-``` ex codigo ```
+```html
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<map>`
  
-Descrição da tag.
+Usado para definir uma área clicavel em uma imagem.
 
-``` ex codigo ```
+```html
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<area>`
  
-Descrição da tag.
+Define a região dentro da tag map.
 
-``` ex codigo ```
+```html
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<canvas>`
  
-Descrição da tag.
+Usada para desenhar gráficos, em tempo real, por meio de scripts.
 
-``` ex codigo ```
+```html
+<canvas id="myCanvas">
+Your browser does not support the canvas tag.
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 80);
+</script>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `figcaption>`
  
-Descrição da tag.
+Define uma legenda para a tag figure.
 
-``` ex codigo ```
+```html
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<figure>`
  
-Descrição da tag.
+Especifica conteúdo independente, como ilustrações, diagramas, fotos, listagens de código.
 
-``` ex codigo ```
+```html
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<picture>`
  
-Descrição da tag.
+Conteiner utilizado para definir vários elementos source para um elemento img especifico contido nele.
 
-``` ex codigo ```
+```html
+<picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<svg>`
  
-Descrição da tag.
+Cria um conteiner para gráficos svg.
 
-``` ex codigo ```
+```html
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Áudio e Vídeo`
-<tag>
+## `<audio>`
  
-Descrição da tag.
+Usado para imcorporar elementos de áudio.
 
-``` ex codigo ```
+```html
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<source>`
  
-Descrição da tag.
+É usado para especifica vários elementos de mídia, como áudio, video e picture.
 
-``` ex codigo ```
+```html
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<track>`
  
-Descrição da tag.
+Especifica faixas de texto para audio e video. Usado para especificar legendas.
 
-``` ex codigo ```
+```html
+<video width="320" height="240" controls>
+  <source src="forrest_gump.mp4" type="video/mp4">
+  <source src="forrest_gump.ogg" type="video/ogg">
+  <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+</video>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<video>`
  
-Descrição da tag.
+Usado para incorporar vídeo ao arquivo. Contem uma ou mais tags source.
 
-``` ex codigo ```
+```html
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Links`
-<tag>
+## `<a>`
  
-Descrição da tag.
+A tag a define um hiperlink. O atributo mais importante da tag a é o atributo href, que indica o destino do link.
 
-``` ex codigo ```
+```html
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<link>`
  
-Descrição da tag.
+Especifica a relação entre o arquivo atual e o elemento externo.
 
-``` ex codigo ```
+```html
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<nav>`
  
-Descrição da tag.
+Representa uma seção que aponta para outras páginas ou áreas da página.
 
-``` ex codigo ```
+```html
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+</nav>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Listas`
-<tag>
+## `<ul>`
  
-Descrição da tag.
+Define uma lista não ordenada.
 
-``` ex codigo ```
+```html
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<ol>`
  
-Descrição da tag.
+Define uma lista ordenada numéricamente.
 
-``` ex codigo ```
+```html
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<li>`
  
-Descrição da tag.
+Usado para definir um elemento que faz parte da lista.
 
-``` ex codigo ```
+```html
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<dl>`
  
-Descrição da tag.
+Cria uma lista com descrição nos elementos.
 
-``` ex codigo ```
+```html
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<dt>`
  
-Descrição da tag.
+Define um termo ou nome de uma lista com descrição.
 
-``` ex codigo ```
+```html
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<dd>`
  
-Descrição da tag.
+Define a descrição do elementos em uma lista de descrição.
 
-``` ex codigo ```
+```html
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Tabelas`
-<tag>
+## `<table>`
  
-Descrição da tag.
+Cria uma tabela com duas dimensões ou mais.
 
-``` ex codigo ```
+```html
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<caption>`
  
-Descrição da tag.
+Define o título ou legenda da tabela.
 
-``` ex codigo ```
+```html
+<table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<th>`
  
-Descrição da tag.
+Define o cabeçalho da tabela.
 
-``` ex codigo ```
+```html
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<tr>`
  
-Descrição da tag.
+Define a linha da tabela.
 
-``` ex codigo ```
+```html
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<td>`
  
-Descrição da tag.
+Contem dados padrão de uma tabela.
 
-``` ex codigo ```
+```html
+<table>
+  <tr>
+    <td>Cell A</td>
+    <td>Cell B</td>
+  </tr>
+  <tr>
+    <td>Cell C</td>
+    <td>Cell D</td>
+  </tr>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<thead>`
  
-Descrição da tag.
+Agrupar o conteúdo do cabeçalho em uma tabela.
 
-``` ex codigo ```
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<tbody>`
  
-Descrição da tag.
+Agrupa o conteúdo do corpo princial em uma tabela.
 
-``` ex codigo ```
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<tfoot>`
  
-Descrição da tag.
+Usado para agrupar o contúdo do rodapé um uma tabela.
 
-``` ex codigo ```
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<col>`
  
-Descrição da tag.
-
-``` ex codigo ```
+Especifica as propriedades da coluna para cada coluna de uma tag colgroup.
+```html
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<colgroup>`
  
-Descrição da tag.
+Define um grupo de uma ou mais colunas para formatação.
 
-``` ex codigo ```
+```html
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Etilos e Semântica`
-<tag>
+## `<style>`
  
-Descrição da tag.
+Usada para definir estilos de CSS para o arquivo.
 
-``` ex codigo ```
+```html
+<html>
+<head>
+<style>
+  h1 {color:red;}
+  p {color:blue;}
+</style>
+</head>
+<body>
+
+<h1>A heading</h1>
+<p>A paragraph.</p>
+
+</body>
+</html>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<div>`
  
-Descrição da tag.
+Define uma divisão ou seção para elementos HTML que são estilizados com CSS ou manipulados por JavaScript.
 
-``` ex codigo ```
+```html
+<html>
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
+
+</body>
+</html>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<span>`
  
-Descrição da tag.
+Usado para marcar parte do texto que será estilizada ou manipulada.
 
-``` ex codigo ```
+```html
+<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<header>`
  
-Descrição da tag.
+Representa um conteiner para conteúdo introdutório.
 
-``` ex codigo ```
+```html
+<article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<footer>`
  
-Descrição da tag.
+Define uma seção para rodapé.
 
-``` ex codigo ```
+```html
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<main>`
  
-Descrição da tag.
+Define o conteúdo principal dentro da tag body.
 
-``` ex codigo ```
+```html
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<section>`
  
-Descrição da tag.
+Representa uma seção genérica contida em um documento HTML.
 
-``` ex codigo ```
+```html
+<section>
+<h2>WWF History</h2>
+<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+<h2>WWF's Symbol</h2>
+<p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<article>`
  
-Descrição da tag.
+Representa uma seção independente, que mesmo se separado do arquivo não perde o sentido.
 
-``` ex codigo ```
+```html
+<article>
+<h2>Google Chrome</h2>
+<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+
+<article>
+<h2>Mozilla Firefox</h2>
+<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+</article>
+
+<article>
+<h2>Microsoft Edge</h2>
+<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+</article>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<aside>`
  
-Descrição da tag.
+São informações extras. Que estão separadas do conteúdo principal, mas direciona para ele.
 
-``` ex codigo ```
+```html
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<details>`
  
-Descrição da tag.
+É uma seção onde são colocados detalhes e podem ser abertos conforme a preferencia.
 
-``` ex codigo ```
+```html
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<dialog>`
  
-Descrição da tag.
+Define uma caixa de diálogo.
 
-``` ex codigo ```
+```html
+<dialog open>This is an open dialog window</dialog>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<summary>`
  
-Descrição da tag.
+Usado como sumário ou legenda para a tag details.
 
-``` ex codigo ```
+```html
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<data>`
  
-Descrição da tag.
+Usada para adicinar uma tradução legivel por maquina.
 
-``` ex codigo ```
+```html
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Meta Info`
-<tag>
+## `<head>`
  
-Descrição da tag.
+Fica entra as tags html e body. Definem o título do documento, conjunto de caracteres, estilos, scripts e outras meta informações.
 
-``` ex codigo ```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Title of the document</title>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<meta>`
  
-Descrição da tag.
+Dentro da tag head define qualquer informação de metadados que não podem ser definidos por outros elementos HTML.
 
-``` ex codigo ```
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<base>`
  
-Descrição da tag.
+Especifica o URL base e destino para todos os URL relevantes ao arquivo.
 
-``` ex codigo ```
+```html
+<head>
+  <base href="https://www.w3schools.com/" target="_blank">
+</head>
+
+<body>
+<img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+<a href="tags/tag_base.asp">HTML base Tag</a>
+</body>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
 # `Programação`
-<tag>
+## `<script>`
  
-Descrição da tag.
+Usado para incorporar um script do lado do cliente
 
-``` ex codigo ```
+```html
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<noscript>`
  
-Descrição da tag.
+Define uma versão alternativa para usuários que desativaram os scripts do navegador. 
 
-``` ex codigo ```
+```html
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<embed>`
  
-Descrição da tag.
+Incorpora conteúdo esterno no ponto especificado. É fornecido por um aplicativo externo ou plug-in.
 
-``` ex codigo ```
+```html
+<embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
+<embed type="text/html" src="snippet.html" width="500" height="200">
+<embed type="video/webm" src="video.mp4" width="400" height="300">
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<object>`
  
-Descrição da tag.
+Define um contêiner para um recurso externo. Pode ser uma página da web, uma imagem, um reprodutor de mídia ou um aplicativo de plug-in.
 
-``` ex codigo ```
+```html
+<object data="pic_trulli.jpg" width="300" height="200"></object>
+<object data="snippet.html" width="500" height="200"></object>
+<object data="video.mp4" width="400" height="300"></object>
+ ```
 
 |Atributo|Descrição|
 |:------:|:-------:|
 |exemplo| descrição do atributo|
 ***
-<tag>
+## `<param>`
  
-Descrição da tag.
+Usada pra definir parâmetros para a tag object.
 
-``` ex codigo ```
+```html
+<object data="horse.wav">
+  <param name="autoplay" value="true">
+</object>
+```
 
 |Atributo|Descrição|
 |:------:|:-------:|

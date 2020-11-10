@@ -2,11 +2,10 @@
 ## Versionadores mais Populares
 Entre os versionares mais populares estão:
 * Git
-* GitHub
 * Subversion
 * Mercurial
 
-###### Obs: Se ater a Git e GitHub. 
+###### Obs: Se ater a Git.
 ***
 ## Objetos do Git
 * Blob
