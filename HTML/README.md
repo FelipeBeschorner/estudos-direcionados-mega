@@ -619,7 +619,7 @@ Especifica um campo que o Usuário pode entrar com dados. Pode ser exibido de di
 |disabled| Especifica que o elemento deve ser desativado|
 |form| Especifica o formulário ao qual o elemento pertence|
 |formaction| Especifica para onde enviar os dados do formulário|
-|height| especifica a altura do elemento, em pixels|
+|height| Especifica a altura do elemento, em pixels|
 |list| Se refere a um elemento datalist que contém opções predefinidas para um elemento input|
 |max| Especifica o valor máximo do elemento|
 |maxlength| Especifica o número máximo de caracteres permitidos no elemento|
@@ -635,7 +635,7 @@ Especifica um campo que o Usuário pode entrar com dados. Pode ser exibido de di
 |size| Especifica a largura visível, em caracteres, de um elemento input|
 |src|  Especifica a localização do recurso externo|
 |step|  Especifica os intervalos de números legais para um elemento input|
-|type| especifica o tipo de elemento input a ser exibido|
+|type| Especifica o tipo de elemento input a ser exibido|
 |value| Especifica o valor inicial do elemento|
 |width|  Especifica a largura do elemento, em pixels|
 ***
@@ -701,7 +701,7 @@ Usado para criar listas suspensas e formulários para coletar entradas do usuár
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|autofocus| especifica que o elemento deve obter o foco automaticamente quando a página é carregada|
+|autofocus| Especifica que o elemento deve obter o foco automaticamente quando a página é carregada|
 |disabled| Especifica que o elemento deve ser desativado|
 |form| Especifica o formulário ao qual o elemento pertence|
 |multiple| Especifica que o usuário tem permissão para inserir / selecionar mais de um valor|
@@ -938,7 +938,7 @@ Define a região dentro da tag map.
 |:------:|:-------:|
 |alt| Fornece informações alternativas para uma imagem|
 |coords| Especifica as coordenadas de uma área em um mapa de imagem|
-|download| especifica que o destino será baixado quando um usuário clicar no hiperlink|
+|download| Especifica que o destino será baixado quando um usuário clicar no hiperlink|
 |href| Especifica a URL da página para a qual o link vai|
 |hreflang| Especifica o idioma do documento vinculado|
 |media| Especifica para qual mídia / dispositivo o documento vinculado é otimizado|
@@ -965,7 +965,7 @@ ctx.fillRect(0, 0, 80, 80);
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|height| especifica a altura do elemento, em pixels|
+|height| Especifica a altura do elemento, em pixels|
 |width|  Especifica a largura do elemento, em pixels|
 ***
 ## `figcaption>`
@@ -1164,7 +1164,7 @@ A tag a define um hiperlink. O atributo mais importante da tag a é o atributo h
 |media| Especifica para qual mídia / dispositivo o documento vinculado é otimizado|
 |rel| Especifica a relação entre o documento atual e o documento / recurso vinculado|
 |target| Especifica onde abrir o documento vinculado|
-|type| especifica o tipo de elemento input a ser exibido|
+|type| Especifica o tipo de elemento input a ser exibido|
 ***
 ## `<link>`
  
@@ -1235,7 +1235,7 @@ Define uma lista ordenada numéricamente.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|reversed| especifica que a ordem da lista deve ser decrescente em vez de crescente|
+|reversed| Especifica que a ordem da lista deve ser decrescente em vez de crescente|
 |start| Especifica o valor inicial do primeiro item da lista em uma lista ordenada|
 ***
 ## `<li>`
@@ -1533,7 +1533,7 @@ Especifica as propriedades da coluna para cada coluna de uma tag colgroup.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|span| define o número de colunas que um elemento col / colgroup deve abranger|
+|span| Define o número de colunas que um elemento col / colgroup deve abranger|
 ***
 ## `<colgroup>`
  
@@ -1560,7 +1560,7 @@ Define um grupo de uma ou mais colunas para formatação.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|span| define o número de colunas que um elemento col / colgroup deve abranger|
+|span| Define o número de colunas que um elemento col / colgroup deve abranger|
 ***
 # `Etilos e Semântica`
 ## `<style>`
@@ -1823,7 +1823,7 @@ Dentro da tag head define qualquer informação de metadados que não podem ser 
 |:------:|:-------:|
 |charset| Especifica a codificação de caracteres para o documento HTML|
 |content| Fornece o valor associado ao http-equiv ou ao atributo name|
-|http-equiv| fornece um cabeçalho HTTP para a informação / valor do atributo content|
+|http-equiv| Fornece um cabeçalho HTTP para a informação / valor do atributo content|
 |name| Especifica um nome para a informação / valor do atributo content|
 ***
 ## `<base>`
@@ -1891,7 +1891,7 @@ Incorpora conteúdo esterno no ponto especificado. É fornecido por um aplicativ
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|height| especifica a altura do elemento, em pixels|
+|height| Especifica a altura do elemento, em pixels|
 |onabort| Define um script a ser executado se o carregamento do arquivo de mídia for interrompido|
 |oncanplay| Define um script a ser executado quando o navegador puder iniciar a reprodução da mídia especificada|
 |onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
@@ -1913,7 +1913,7 @@ Define um contêiner para um recurso externo. Pode ser uma página da web, uma i
 |:------:|:-------:|
 |data| Especifica a URL do recurso a ser usado pelo objeto|
 |form| Especifica o formulário ao qual o elemento pertence|
-|height| especifica a altura do elemento, em pixels|
+|height| Especifica a altura do elemento, em pixels|
 |name| Especifica um nome para o elemento|
 |onabort| Define um script a ser executado se o carregamento do arquivo de mídia for interrompido|
 |oncanplay| Define um script a ser executado quando o navegador puder iniciar a reprodução da mídia especificada|
