@@ -19,9 +19,6 @@ The content of the document......
 </html>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<html>` 
 Define um arquivo como HTML. Todos os outros elementos devem ser descendentes dele.
@@ -41,9 +38,6 @@ Define um arquivo como HTML. Todos os outros elementos devem ser descendentes de
 </html>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<head>`
  
@@ -64,9 +58,6 @@ Contem metadados e informações sobre o arquivo. Inclui o título e links para 
 </html>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<title>`
  
@@ -87,9 +78,6 @@ Define o titulo do arquivo. Mostrado na aba do navegador. Contem somente texto.
 </html>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<body>`
  
@@ -111,7 +99,20 @@ Contem todo o conteúdo do arquivo.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|onafterprint| Dispara quando uma página começa a ser impressa ou se a caixa de diálogo de impressão foi fechada|
+|onbeforeprint| Dispara quando uma página está prestes a ser impressa|
+|onbeforeunload| Disparado quando o documento está prestes a ser descarregado|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|onhashchange| Acionado quando há mudanças na parte da âncora da URL atual|
+|onload| Dispara quando um objeto é carregado|
+|onoffline| Disparado quando o navegador começa a trabalhar offline|
+|ononline| Disparado quando o navegador começa a funcionar online|
+|onpagehide| Ocorre quando um usuário navega em outra página da web|
+|onpageshow| Ocorre quando um usuário navega na página da web|
+|onpopstate| Ocorre quando o histórico da janela muda|
+|onresize| Disparado quando a janela do navegador é redimensionada|
+|onstorage| Disparado quando o aramzenamento web é atualizado|
+|onunload| Dispara quando uma página é descarregada|
 ***
 ## `<h1> to <h6>`
  
@@ -126,9 +127,6 @@ Usados para definir cabeçalhos e títulos. Definem nivel de importância. Somen
 <h6>This is heading 6</h6>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<p>`
  
@@ -138,9 +136,6 @@ Define um paragrafo que agrupa conteúdos relacionados, como imagens ou campos d
 <p>This is some text in a paragraph.</p>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<br>`
  
@@ -150,9 +145,6 @@ Quebra de linha.
 <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<hr>`
  
@@ -172,9 +164,6 @@ Quebra temática de elementos de nível parágrafo.
 <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<!--...-->`
  
@@ -186,9 +175,6 @@ Usado para fazer comentários que não aparecem no navegador.
 <p>This is a paragraph.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## Formatação
 ***
@@ -200,9 +186,6 @@ Define uma abreviação e opcionalmente uma descrição completa.
 The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<address>`
  
@@ -218,9 +201,6 @@ USA
 </address>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<b>`
  
@@ -230,9 +210,6 @@ Negrito. Apenas usado em último caso e sem qualquer importância extra.
 <p>This is normal text - <b>and this is bold text</b>.</p>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<bdi>`
  
@@ -246,9 +223,6 @@ Isolamento Bidirecional. Isola parte do texto que pode ser formatada de forma di
 </ul>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<bdo>`
  
@@ -260,9 +234,6 @@ This text will go right-to-left.
 </bdo>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<blockquote>`
  
@@ -276,7 +247,7 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|cite| Especifica uma URL para um documento que explica a citação|
 ***
 ## `<cite>`
  
@@ -286,9 +257,6 @@ Usado para citar o nome de uma obra artística. Deve conter o nome da obra ou um
 <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<code>`
  
@@ -300,9 +268,6 @@ Apresenta de forma estilizada um trecho de código.
 <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<del>`
  
@@ -314,7 +279,8 @@ Define um texto que foi excluido do arquivo. Pode ser não renderizado ou riscad
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|cite| Especifica uma URL para um documento que explica a citação|
+|datetime| Especifica a data e hora em que o texto foi excluído / inserido|
 ***
 ## `<dfn>`
  
@@ -324,9 +290,6 @@ Especifica um termo que será definido dentro do conteúdo.
 <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<em>`
  
@@ -338,9 +301,6 @@ Utilizado para dar ênfase. Normalmente exibido em itálico.
 <p>We <em>cannot</em> live like this.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<i>`
  
@@ -352,9 +312,6 @@ Coloca o texto em itálico. Destaca o texto por algum motivo, como: termos técn
 <p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<ins>`
  
@@ -366,7 +323,8 @@ Sublinha o texto. Define o texto que foi inserido no arquivo.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|cite| Especifica uma URL para um documento que explica a citação|
+|datetime| Especifica a data e hora em que o texto foi excluído / inserido|
 ***
 ## `<kbd>`
  
@@ -378,9 +336,6 @@ Entrada por teclado. O texto é exibino de forma menos espaçada.
 <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<mark>`
  
@@ -390,9 +345,6 @@ Representa o trecho como destacado. O texto é exibido com marca-texto.
 <p>Do not forget to buy <mark>milk</mark> today.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<meter>`
  
@@ -408,7 +360,13 @@ Representa um valor escalar em um intervalo conhecido ou fracionário. Também c
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|form| Especifica o formulário ao qual o elemento pertence|
+|high| Especifica o intervalo em que o valor do medidor é considerado um valor alto|
+|low| Especifica o intervalo em que o valor do medidor é considerado um valor baixo|
+|max| Especifica o valor máximo do elemento|
+|min| Especifica o valor mínimo de um elemento do elemento|
+|optimum| Especifica o intervalo em que o valor do medidor é considerado um valor ótimo|
+|value| Especifica o valor atual do medidor|
 ***
 ## `<pre>`
  
@@ -424,9 +382,6 @@ line breaks
 </pre>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<progress>`
  
@@ -439,7 +394,8 @@ Representa o andamento ou progresso de uma tarefa.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|max| Especifica o valor máximo do elemento|
+|value| Especifica quanto da tarefa foi concluída|
 ***
 ## `<q>`
  
@@ -453,7 +409,7 @@ We hope they succeed.</p>
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|cite| Especifica uma URL para um documento que explica a citação|
 ***
 ## `<rp>`
  
@@ -465,9 +421,6 @@ Fornece perenteses ao redor de textos ruby.
 </ruby>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<rt>`
  
@@ -479,9 +432,6 @@ Define uma explicação ou pronuncia de caracteres diferentes em uma anotação 
 </ruby>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<ruby>`
  
@@ -493,9 +443,6 @@ Representa uma anotação ruby, que mostram a prunucia de caracteres do Leste As
 </ruby>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<s>`
  
@@ -506,9 +453,6 @@ Especifica um texto que não possui mais conteudo relevante. É exibido com uma 
 <p>SOLD OUT!</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<samp>`
  
@@ -520,9 +464,6 @@ Define a saida de uma amostra de computador. O texto é menoespaçado.
 <p><samp>File not found.<br>Press F1 to continue</samp></p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<small>`
  
@@ -533,9 +474,6 @@ Define um texto com fonte menor.
 <p><small>This is some smaller text.</small></p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<strong>`
  
@@ -545,9 +483,6 @@ Define um texto como importante. Normalmente exibido em negrito.
 <strong>This text is important!</strong>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<sub>`
  
@@ -557,9 +492,6 @@ Escreve o texto meia linha baixo e em fonte menor. Normalmente utilizado em form
 <p>This text contains <sub>subscript</sub> text.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<sup>`
  
@@ -569,9 +501,6 @@ Escreve o texto meia linha acima e em fonte menor. Utilizados como nota de rodap
 <p>This text contains <sup>superscript</sup> text.</p>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<template>`
  
@@ -594,9 +523,6 @@ function showContent() {
 </script>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<time>`
  
@@ -610,7 +536,7 @@ Define uma hora específica. É utilizado para traduzir a hora para a maquina pe
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|datetime| Especifica a data e hora em que o texto foi excluído / inserido|
 ***
 ## `<u>`
  
@@ -620,9 +546,6 @@ Representa um texto não articulado e com estilo diferente do normal. O texto é
 <p>This is some <u>mispeled</u> text.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<var>`
  
@@ -632,9 +555,6 @@ Representa um elemento matemático ou contexto de programação. conteúdo exibi
 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<wbr>`
  
@@ -644,9 +564,6 @@ Define uma possivel quebra de linha.
 <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 # `Formas e Entradas`
 ## `<form>`
@@ -665,7 +582,17 @@ Representa uma seção que contem controles interativos que permitem que o clien
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|accept-charset| Especifica as condições de caracteres que devem ser usados|
+|action| Especifica para onde deve ser enviado os dados do formulário|
+|autocomplete| O preenchimento automático permite que o navegador preveja o próximo valor|
+|enctype| Especifica como os dados do formulário devem ser codificados ao enviá-los ao servidor|
+|method| Especifica como enviar dados de formulário|
+|name| Especifica um nome para o elemento,  também é usado como uma referência quando os dados são enviados|
+|novalidate|  Especifica que os dados do formulário não devem ser validados ao serem enviados|
+|onreset| Acionado quando um formulário é redefinido|
+|onsubmit| Disparado quando um formulário é enviado|
+|rel| Especifica a relação entre o documento atual e o documento / recurso vinculado|
+|target|  Especifica um nome ou uma palavra-chave que indica onde exibir a resposta recebida após o envio do formulário|
 ***
 ## `<input>`
  
@@ -683,7 +610,34 @@ Especifica um campo que o Usuário pode entrar com dados. Pode ser exibido de di
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|accept| Especifica os tipos de arquivos que o servidor aceita|
+|alt| Fornece informações alternativas para uma imagem|
+|autocomplete| O preenchimento automático permite que o navegador preveja o próximo valor|
+|autofocus| Especifica que o elemento deve obter o foco automaticamente quando a página é carregada|
+|checked| Especifica que um elemento input deve ser pré-selecionado quando a página carrega|
+|dirname| Permite o envio da direção do texto do campo de entrada|
+|disabled| Especifica que o elemento deve ser desativado|
+|form| Especifica o formulário ao qual o elemento pertence|
+|formaction| Especifica para onde enviar os dados do formulário|
+|height| especifica a altura do elemento, em pixels|
+|list| Se refere a um elemento datalist que contém opções predefinidas para um elemento input|
+|max| Especifica o valor máximo do elemento|
+|maxlength| Especifica o número máximo de caracteres permitidos no elemento|
+|min| Especifica o valor mínimo de um elemento do elemento|
+|multiple| Especifica que o usuário tem permissão para inserir / selecionar mais de um valor|
+|name| Especifica um nome para o elemento|
+|onload| Dispara quando um objeto é carregado|
+|onsearch| Acionado quando um usuário pressiona a tecla "ENTER" ou clica no botão "x" em um elemento input com type = "search"|
+|pattern| Especifica uma expressão regular com a qual o valor do elemento input é verificado|
+|placeholder| Especifica uma pequena dica que descreve o valor esperado de um campo de entrada|
+|readonly| Especifica que um campo de entrada ou textarea é somente leitura|
+|required| Especifica que o elemento deve ser preenchido antes de enviar o formulário|
+|size| Especifica a largura visível, em caracteres, de um elemento input|
+|src|  Especifica a localização do recurso externo|
+|step|  Especifica os intervalos de números legais para um elemento input|
+|type| especifica o tipo de elemento input a ser exibido|
+|value| Especifica o valor inicial do elemento|
+|width|  Especifica a largura do elemento, em pixels|
 ***
 ## `<textarea>`
  
@@ -699,7 +653,18 @@ At w3schools.com you will learn how to make a website. They offer free tutorials
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|autofocus| Especifica que o elemento deve obter o foco automaticamente quando a página é carregada|
+|	cols| Especifica a largura visível de uma área de texto|
+|dirname| Permite o envio da direção do texto do campo de entrada|
+|disabled| Especifica que o elemento deve ser desativado|
+|form| Especifica o formulário ao qual o elemento pertence|
+|maxlength| Especifica o número máximo de caracteres permitidos no elemento|
+|name| Especifica um nome para o elemento|
+|placeholder| Especifica uma pequena dica que descreve o valor esperado de um campo de entrada|
+|readonly| Especifica que um campo de entrada ou textarea é somente leitura|
+|required| Especifica que o elemento deve ser preenchido antes de enviar o formulário|
+|rows| Especifica a altura visível de uma área de texto, em linhas|
+|wrap| Especifica como o texto em uma área de texto deve ser quebrado quando enviado em um formulário|
 ***
 ## `<button>`
  
@@ -711,7 +676,13 @@ Representa um botão clicável, que pode ser adicionado texto.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|autofocus| Especifica que o elemento deve obter o foco automaticamente quando a página é carregada|
+|disabled| Especifica que o elemento deve ser desativado|
+|form| Especifica o formulário ao qual o elemento pertence|
+|formaction| Especifica para onde enviar os dados do formulário|
+|name| Especifica um nome para o elemento|
+|type| Especifica o tipo de botão|
+|value| Especifica o valor inicial do elemento|
 ***
 ## `<select>`
  
@@ -730,7 +701,13 @@ Usado para criar listas suspensas e formulários para coletar entradas do usuár
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|autofocus| especifica que o elemento deve obter o foco automaticamente quando a página é carregada|
+|disabled| Especifica que o elemento deve ser desativado|
+|form| Especifica o formulário ao qual o elemento pertence|
+|multiple| Especifica que o usuário tem permissão para inserir / selecionar mais de um valor|
+|name| Especifica um nome para o elemento|
+|required| Especifica que o elemento deve ser preenchido antes de enviar o formulário|
+|size| Especifica o número de opções visíveis em uma lista suspensa|
 ***
 ## `<optgroup>`
  
@@ -752,7 +729,8 @@ Cria um agrupamento de opcções dentro de uma tag select.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|disabled| Especifica que o elemento deve ser desativado|
+|label| Especifica o título da trilha de texto|
 ***
 ## `<option>`
  
@@ -771,7 +749,10 @@ Usado para criar um controle que representa um item dentro de um elemento HTML5.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|disabled| Especifica que o elemento deve ser desativado|
+|label| Especifica o título da trilha de texto|
+|selected| Especifica que uma opção deve ser pré-selecionada quando a página carrega|
+|value| Especifica o valor inicial do elemento|
 ***
 ## `<label>`
  
@@ -791,7 +772,8 @@ Define um rotulo para vários elementos.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|for| Especifica a qual elemento de formulário um rótulo está vinculado|
+|form| Especifica o formulário ao qual o elemento pertence|
 ***
 ## `<fieldset>`
  
@@ -816,7 +798,9 @@ Usado para relacionar elementos semelhantes em uma tag label e desenha uma caixa
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|disabled| Especifica que o elemento deve ser desativado|
+|form| Especifica o formulário ao qual o elemento pertence|
+|name| Especifica um nome para o elemento|
 ***
 ## `<legend>`
  
@@ -839,9 +823,6 @@ Define uma legenda para a tag fieldset.
 </form>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<datalist>`
  
@@ -860,9 +841,6 @@ Apresenta uma lista de opções para a tag input ou outras tags.
 </datalist>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<output>`
  
@@ -878,7 +856,9 @@ Usado para apresentar ao Usuário o resultado de um calculo ou ação.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|for| Especifica a relação entre o resultado do cálculo e os elementos usados ​​no cálculo|
+|form| Especifica o formulário ao qual o elemento pertence|
+|name| Especifica um nome para o elemento|
 ***
 # `Frames`
 ## `<iframe>`
@@ -891,7 +871,13 @@ Especifica um quadro embutido, que carrega outros arquivos HTML.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|height| Especifica a altura do elemento, em pixels|
+|name| Especifica um nome para o elemento, pode ser usado para direcionar o envio de um formulário|
+|onload| Dispara quando um objeto é carregado|
+|sandbox| Permite um conjunto extra de restrições para o conteúdo no iframe|
+|src|  Especifica a localização do recurso externo|
+|srcdoc|  Especifica o conteúdo HTML da página a ser mostrado no quadro embutido|
+|width|  Especifica a largura do elemento, em pixels|
 ***
 # `imagens`
 ## `<img>`
@@ -904,7 +890,17 @@ Representa a inserção de uma imagem no arquivo HTML5.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|alt| Fornece informações alternativas para uma imagem|
+|height| Especifica a altura do elemento, em pixels|
+|ismap| Especifica que a imagem faz parte de um mapa de imagem do lado do servidor|
+|onabort| Define um script a ser executado se o carregamento do arquivo de mídia for interrompido|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|onload| Dispara quando um objeto é carregado|
+|sizes| Especifica os tamanhos dos ícones para mídia visual|
+|src|  Especifica a localização do recurso externo|
+|srcset|  Especifica a URL da imagem a ser usada em diferentes situações|
+|usemap|  Especifica uma imagem como um mapa de imagem|
+|width|  Especifica a largura do elemento, em pixels|
 ***
 ## `<map>`
  
@@ -922,7 +918,7 @@ Usado para definir uma área clicavel em uma imagem.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|name| Associado ao atributo usemap de img e cria um relacionamento entre a imagem e o mapa|
 ***
 ## `<area>`
  
@@ -940,7 +936,15 @@ Define a região dentro da tag map.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|alt| Fornece informações alternativas para uma imagem|
+|coords| Especifica as coordenadas de uma área em um mapa de imagem|
+|download| especifica que o destino será baixado quando um usuário clicar no hiperlink|
+|href| Especifica a URL da página para a qual o link vai|
+|hreflang| Especifica o idioma do documento vinculado|
+|media| Especifica para qual mídia / dispositivo o documento vinculado é otimizado|
+|rel| Especifica a relação entre o documento atual e o documento / recurso vinculado|
+|shape| Especifica a forma de uma área|
+|target| Especifica onde abrir o documento vinculado|
 ***
 ## `<canvas>`
  
@@ -961,7 +965,8 @@ ctx.fillRect(0, 0, 80, 80);
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|height| especifica a altura do elemento, em pixels|
+|width|  Especifica a largura do elemento, em pixels|
 ***
 ## `figcaption>`
  
@@ -974,9 +979,6 @@ Define uma legenda para a tag figure.
 </figure>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<figure>`
  
@@ -989,9 +991,6 @@ Especifica conteúdo independente, como ilustrações, diagramas, fotos, listage
 </figure>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<picture>`
  
@@ -1005,9 +1004,6 @@ Conteiner utilizado para definir vários elementos source para um elemento img e
 </picture>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<svg>`
  
@@ -1019,9 +1015,6 @@ Cria um conteiner para gráficos svg.
 </svg>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 # `Áudio e Vídeo`
 ## `<audio>`
@@ -1038,7 +1031,33 @@ Usado para imcorporar elementos de áudio.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|autoplay| O vídeo/áudio começa automaticamente|
+|controls| Especifica que os controles de áudio / vídeo devem ser exibidos|
+|loop| Especifica que o áudio será reiniciado sempre que for finalizado|
+|muted| Especifica que a saída de áudio do vídeo deve ser silenciada|
+|onabort| Define um script a ser executado se o carregamento do arquivo de mídia for interrompido|
+|oncanplay| Define um script a ser executado quando o navegador puder iniciar a reprodução da mídia especificada|
+|oncanplaythrough| Ocorre quando o navegador estima que pode reproduzir o áudio / vídeo especificado sem ter que parar para armazenamento em buffer|
+|ondurationchange| Ocorre quando os dados de duração do áudio / vídeo especificado são alterados|
+|onemptied| Dispara quando algo ruim acontece e o arquivo está indisponível|
+|onended| Ocorre quando o áudio / vídeo chega ao fim|
+|onloadeddata| Ocorre quando os dados do quadro atual são carregados, mas não há dados suficientes para reproduzir o próximo quadro do áudio / vídeo especificado|
+|onloadedmetadata| Ocorre quando metadados para o áudio / vídeo especificado foram carregados|
+|onloadstart| Ocorre quando o navegador começa a procurar o áudio / vídeo especificado|
+|onpause| Define um script a ser executado quando o áudio / vídeo é pausado pelo usuário ou programaticamente|
+|onplay| Define um script a ser executado quando o áudio / vídeo for iniciado ou não estiver mais pausado|
+|onplaying| Definem um script a ser executado quando o áudio / vídeo começar a ser reproduzido|
+|onprogress| Define um script a ser executado quando o navegador está baixando o áudio / vídeo especificado|
+|onratechange| Define um script a ser executado quando a velocidade de reprodução do áudio / vídeo é alterada|
+|onseeked| Define um script a ser executado quando o usuário terminar de mover / pular para uma nova posição no áudio / vídeo|
+|onseeking| Define um script a ser executado quando o usuário começa a se mover / pular para uma nova posição no áudio / vídeo|
+|onstalled| Define um script a ser executado quando o navegador está tentando obter dados de mídia, mas os dados não estão disponíveis|
+|onsuspend| Define um script a ser executado quando o navegador intencionalmente não está obtendo dados de mídia|
+|ontimeupdate| Define um script a ser executado quando a posição de reprodução de um áudio / vídeo for alterada|
+|onvolumechange|  Define um script a ser executado sempre que o volume de um vídeo / áudio for alterado|
+|onwaiting|  Define um script a ser executado quando o vídeo for interrompido, pois ele precisa armazenar em buffer o próximo quadro|
+|preload|  Especifica se e como o autor pensa que o arquivo de mídia deve ser carregado quando a página é carregada|
+|src|  Especifica a localização do recurso externo|
 ***
 ## `<source>`
  
@@ -1054,7 +1073,11 @@ Usado para imcorporar elementos de áudio.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|media| Especifica para qual mídia / dispositivo o documento vinculado é otimizado|
+|sizes| Especifica os tamanhos dos ícones para mídia visual|
+|src|  Especifica a localização do recurso externo|
+|srcset|  Especifica a URL da imagem a ser usada em diferentes situações|
+|type| Especifica o tipo de mídia da Internet|
 ***
 ## `<track>`
  
@@ -1071,7 +1094,12 @@ Especifica faixas de texto para audio e video. Usado para especificar legendas.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|default| Especifica que a faixa deve ser ativada se as preferências do usuário não indicarem que outra faixa seria mais apropriada|
+|kind| Especifica o tipo de trilha de texto|
+|label| Especifica o título da trilha de texto|
+|oncuechange| Define um script a ser executado quando o ecue muda em um elemento track|
+|src|  Especifica a localização do recurso externo|
+|srclang|  Especifica o idioma dos dados do texto da trilha|
 ***
 ## `<video>`
  
@@ -1087,7 +1115,37 @@ Usado para incorporar vídeo ao arquivo. Contem uma ou mais tags source.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|autoplay| O vídeo/áudio começa automaticamente|
+|controls| Especifica que os controles de áudio / vídeo devem ser exibidos|
+|height| Especifica a altura do elemento, em pixels|
+|loop| Especifica que o áudio será reiniciado sempre que for finalizado|
+|muted| Especifica que a saída de áudio do vídeo deve ser silenciada|
+|onabort| Define um script a ser executado se o carregamento do arquivo de mídia for interrompido|
+|oncanplay| Define um script a ser executado quando o navegador puder iniciar a reprodução da mídia especificada|
+|oncanplaythrough| Ocorre quando o navegador estima que pode reproduzir o áudio / vídeo especificado sem ter que parar para armazenamento em buffer|
+|ondurationchange| Ocorre quando os dados de duração do áudio / vídeo especificado são alterados|
+|onemptied| Dispara quando algo ruim acontece e o arquivo está indisponível|
+|onended| Ocorre quando o áudio / vídeo chega ao fim|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|onloadeddata| Ocorre quando os dados do quadro atual são carregados, mas não há dados suficientes para reproduzir o próximo quadro do áudio / vídeo especificado|
+|onloadedmetadata| Ocorre quando metadados para o áudio / vídeo especificado foram carregados|
+|onloadstart| Ocorre quando o navegador começa a procurar o áudio / vídeo especificado|
+|onpause| Define um script a ser executado quando o áudio / vídeo é pausado pelo usuário ou programaticamente|
+|onplay| Define um script a ser executado quando o áudio / vídeo for iniciado ou não estiver mais pausado|
+|onprogress| Define um script a ser executado quando o navegador está baixando o áudio / vídeo especificado|
+|onratechange| Define um script a ser executado quando a velocidade de reprodução do áudio / vídeo é alterada|
+|onseeked| Define um script a ser executado quando o usuário terminar de mover / pular para uma nova posição no áudio / vídeo|
+|onseeking| Define um script a ser executado quando o usuário começa a se mover / pular para uma nova posição no áudio / vídeo|
+|onstalled| Define um script a ser executado quando o navegador está tentando obter dados de mídia, mas os dados não estão disponíveis|
+|onsuspend| Define um script a ser executado quando o navegador intencionalmente não está obtendo dados de mídia|
+|ontimeupdate| Define um script a ser executado quando a posição de reprodução de um áudio / vídeo for alterada|
+|onvolumechange|  Define um script a ser executado sempre que o volume de um vídeo / áudio for alterado|
+|onwaiting|  Define um script a ser executado quando o vídeo for interrompido, pois ele precisa armazenar em buffer o próximo quadro|]
+|poster|  Especifica uma imagem a ser exibida durante o download do vídeo ou até que o usuário pressione o botão de reprodução|
+|preload|  Especifica se e como o autor pensa que o arquivo de mídia deve ser carregado quando a página é carregada|
+|src|  Especifica a localização do recurso externo|
+|width|  Especifica a largura do elemento, em pixels|
 ***
 # `Links`
 ## `<a>`
@@ -1100,7 +1158,13 @@ A tag a define um hiperlink. O atributo mais importante da tag a é o atributo h
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|download| Especifica que o destino será baixado quando um usuário clicar no hiperlink|
+|href| Especifica a URL da página para a qual o link vai|
+|hreflang| Especifica o idioma do documento vinculado|
+|media| Especifica para qual mídia / dispositivo o documento vinculado é otimizado|
+|rel| Especifica a relação entre o documento atual e o documento / recurso vinculado|
+|target| Especifica onde abrir o documento vinculado|
+|type| especifica o tipo de elemento input a ser exibido|
 ***
 ## `<link>`
  
@@ -1114,7 +1178,14 @@ Especifica a relação entre o arquivo atual e o elemento externo.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|href| Especifica a localização do recurso externo|
+|hreflang| Especifica o idioma do documento vinculado|
+|media| Especifica para qual mídia / dispositivo o documento vinculado é otimizado|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|onload| Dispara quando um objeto é carregado|
+|rel| Especifica a relação entre o documento atual e o documento / recurso vinculado|
+|sizes| Especifica os tamanhos dos ícones para mídia visual|
+|type| Especifica o tipo de mídia da Internet|
 ***
 ## `<nav>`
  
@@ -1129,9 +1200,6 @@ Representa uma seção que aponta para outras páginas ou áreas da página.
 </nav>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 # `Listas`
 ## `<ul>`
@@ -1146,9 +1214,6 @@ Define uma lista não ordenada.
 </ul>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<ol>`
  
@@ -1170,7 +1235,8 @@ Define uma lista ordenada numéricamente.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|reversed| especifica que a ordem da lista deve ser decrescente em vez de crescente|
+|start| Especifica o valor inicial do primeiro item da lista em uma lista ordenada|
 ***
 ## `<li>`
  
@@ -1192,7 +1258,7 @@ Usado para definir um elemento que faz parte da lista.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|value| Define o valor do item da lista|
 ***
 ## `<dl>`
  
@@ -1207,9 +1273,6 @@ Cria uma lista com descrição nos elementos.
 </dl>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<dt>`
  
@@ -1224,9 +1287,6 @@ Define um termo ou nome de uma lista com descrição.
 </dl>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<dd>`
  
@@ -1241,9 +1301,6 @@ Define a descrição do elementos em uma lista de descrição.
 </dl>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 # `Tabelas`
 ## `<table>`
@@ -1263,9 +1320,6 @@ Cria uma tabela com duas dimensões ou mais.
 </table>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<caption>`
  
@@ -1285,9 +1339,6 @@ Define o título ou legenda da tabela.
 </table>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<th>`
  
@@ -1312,7 +1363,10 @@ Define o cabeçalho da tabela.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|colspan| Define o número de colunas que uma célula da tabela deve abranger|
+|headers| Especifica uma ou mais células de cabeçalho às quais uma célula da tabela está relacionada|
+|rowspan| Especifica o número de linhas que uma célula deve abranger|
+|scope| Especifica se uma célula de cabeçalho é um cabeçalho de uma coluna, linha ou grupo de colunas ou linhas|
 ***
 ## `<tr>`
  
@@ -1335,9 +1389,6 @@ Define a linha da tabela.
 </table>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<td>`
  
@@ -1358,7 +1409,9 @@ Contem dados padrão de uma tabela.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|colspan| Define o número de colunas que uma célula da tabela deve abranger|
+|headers| Especifica uma ou mais células de cabeçalho às quais uma célula da tabela está relacionada|
+|rowspan| Especifica o número de linhas que uma célula deve abranger|
 ***
 ## `<thead>`
  
@@ -1391,9 +1444,6 @@ Agrupar o conteúdo do cabeçalho em uma tabela.
 </table>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<tbody>`
  
@@ -1426,9 +1476,6 @@ Agrupa o conteúdo do corpo princial em uma tabela.
 </table>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<tfoot>`
  
@@ -1461,9 +1508,6 @@ Usado para agrupar o contúdo do rodapé um uma tabela.
 </table>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<col>`
  
@@ -1489,7 +1533,7 @@ Especifica as propriedades da coluna para cada coluna de uma tag colgroup.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|span| define o número de colunas que um elemento col / colgroup deve abranger|
 ***
 ## `<colgroup>`
  
@@ -1516,7 +1560,7 @@ Define um grupo de uma ou mais colunas para formatação.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|span| define o número de colunas que um elemento col / colgroup deve abranger|
 ***
 # `Etilos e Semântica`
 ## `<style>`
@@ -1542,7 +1586,9 @@ Usada para definir estilos de CSS para o arquivo.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|media| Especifica para qual mídia / dispositivo o documento vinculado é otimizado|
+|onload| Dispara quando um objeto é carregado|
+|type| Especifica o tipo de mídia da Internet|
 ***
 ## `<div>`
  
@@ -1570,9 +1616,6 @@ Define uma divisão ou seção para elementos HTML que são estilizados com CSS 
 </html>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<span>`
  
@@ -1582,9 +1625,6 @@ Usado para marcar parte do texto que será estilizada ou manipulada.
 <p>My mother has <span style="color:blue">blue</span> eyes.</p>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<header>`
  
@@ -1601,9 +1641,6 @@ Representa um conteiner para conteúdo introdutório.
 </article>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<footer>`
  
@@ -1616,9 +1653,6 @@ Define uma seção para rodapé.
 </footer>
 ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<main>`
  
@@ -1646,9 +1680,6 @@ Define o conteúdo principal dentro da tag body.
 </main>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<section>`
  
@@ -1666,9 +1697,6 @@ Representa uma seção genérica contida em um documento HTML.
 </section>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<article>`
  
@@ -1691,9 +1719,6 @@ Representa uma seção independente, que mesmo se separado do arquivo não perde
 </article>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<aside>`
  
@@ -1708,9 +1733,6 @@ São informações extras. Que estão separadas do conteúdo principal, mas dire
 </aside>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<details>`
  
@@ -1725,7 +1747,8 @@ São informações extras. Que estão separadas do conteúdo principal, mas dire
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|ontoggle| Eisparado quando o usuário abre ou fecha o elemento details|
+|open| Especifica que os detalhes devem estar visíveis (abertos) por padrão|
 ***
 ## `<dialog>`
  
@@ -1735,9 +1758,6 @@ Define uma caixa de diálogo.
 <dialog open>This is an open dialog window</dialog>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<summary>`
  
@@ -1750,9 +1770,6 @@ Usado como sumário ou legenda para a tag details.
 </details>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<data>`
  
@@ -1766,9 +1783,6 @@ Usada para adicinar uma tradução legivel por maquina.
 </ul>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 # `Meta Info`
 ## `<head>`
@@ -1790,9 +1804,6 @@ Fica entra as tags html e body. Definem o título do documento, conjunto de cara
 </html>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<meta>`
  
@@ -1810,7 +1821,10 @@ Dentro da tag head define qualquer informação de metadados que não podem ser 
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|charset| Especifica a codificação de caracteres para o documento HTML|
+|content| Fornece o valor associado ao http-equiv ou ao atributo name|
+|http-equiv| fornece um cabeçalho HTTP para a informação / valor do atributo content|
+|name| Especifica um nome para a informação / valor do atributo content|
 ***
 ## `<base>`
  
@@ -1829,7 +1843,8 @@ Especifica o URL base e destino para todos os URL relevantes ao arquivo.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|href| Especifica o URL base para todos os URLs relativos em uma página|
+|target|  Especifica o destino padrão para todos os hyperlinks e formulários na página|
 ***
 # `Programação`
 ## `<script>`
@@ -1844,7 +1859,13 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|async| Especifica que o script será executado de forma assíncrona|
+|	charset| Especifica a codificação de caracteres usada em um arquivo de script externo|
+|	defer| Especifica que o script é executado quando a página termina de analisar|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|onload| Dispara quando um objeto é carregado|
+|src|  Especifica a localização do recurso externo|
+|type| Especifica o tipo de mídia da Internet|
 ***
 ## `<noscript>`
  
@@ -1857,9 +1878,6 @@ document.write("Hello World!")
 <noscript>Your browser does not support JavaScript!</noscript>
  ```
 
-|Atributo|Descrição|
-|:------:|:-------:|
-|exemplo| descrição do atributo|
 ***
 ## `<embed>`
  
@@ -1873,7 +1891,13 @@ Incorpora conteúdo esterno no ponto especificado. É fornecido por um aplicativ
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|height| especifica a altura do elemento, em pixels|
+|onabort| Define um script a ser executado se o carregamento do arquivo de mídia for interrompido|
+|oncanplay| Define um script a ser executado quando o navegador puder iniciar a reprodução da mídia especificada|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|src|  Especifica a localização do recurso externo|
+|type| Especifica o tipo de mídia da Internet|
+|width|  Especifica a largura do elemento, em pixels|
 ***
 ## `<object>`
  
@@ -1887,7 +1911,16 @@ Define um contêiner para um recurso externo. Pode ser uma página da web, uma i
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|data| Especifica a URL do recurso a ser usado pelo objeto|
+|form| Especifica o formulário ao qual o elemento pertence|
+|height| especifica a altura do elemento, em pixels|
+|name| Especifica um nome para o elemento|
+|onabort| Define um script a ser executado se o carregamento do arquivo de mídia for interrompido|
+|oncanplay| Define um script a ser executado quando o navegador puder iniciar a reprodução da mídia especificada|
+|onerror| Ocorre quando ocorre um erro durante o carregamento de um arquivo de mídia|
+|type| Especifica o tipo de mídia da Internet|
+|usemap|  Especifica uma imagem como um mapa de imagem|
+|width|  Especifica a largura do elemento, em pixels|
 ***
 ## `<param>`
  
@@ -1901,6 +1934,7 @@ Usada pra definir parâmetros para a tag object.
 
 |Atributo|Descrição|
 |:------:|:-------:|
-|exemplo| descrição do atributo|
+|name| Usado junto com o atributo value para especificar parâmetros para o plugin especificado com a tag object|
+|value| Especifica o valor do parâmetro|
 ***
 
