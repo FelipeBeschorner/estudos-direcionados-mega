@@ -1937,4 +1937,68 @@ Usada pra definir parâmetros para a tag object.
 |name| Usado junto com o atributo value para especificar parâmetros para o plugin especificado com a tag object|
 |value| Especifica o valor do parâmetro|
 ***
+# `Atributos Globais`
+|Atributo|Descrição|
+|:------:|:-------:|
+|accesskey| Especifica uma tecla de atalho para ativar / focar um elemento|
+|class| Especifica um ou mais nomes de classe para um elemento|
+|contenteditable| Especifica se o conteúdo de um elemento é editável ou não|
+|data-*| Usado para armazenar dados personalizados privados para a página ou aplicativo|
+|dir| Especifica a direção do texto do conteúdo do elemento|
+|draggable| Especifica se um elemento é arrastável ou não|
+|hidden| Especifica que um elemento ainda não é, ou não é mais, relevante|
+|id| Especifica um id único para um elemento HTML |
+|lang| Especifica o idioma do conteúdo do elemento |
+|spellcheck| Especifica se o elemento deve ter sua ortografia e gramática verificadas ou não |
+|style| Especifica um estilo embutido para um elemento |
+|tabindex| Especifica a ordem de tabulação de um elemento |
+|title| Especifica informações extras sobre um elemento |
+|translate| Especifica se o conteúdo de um elemento deve ser traduzido ou não |
 
+# `All Visible Elements`
+## `Form Events`
+|Atributo|Descrição|
+|:------:|:-------:|
+|onblur| Dispara no momento em que o elemento perde o foco|
+|onchange| Dispara no momento em que o valor do elemento é alterado|
+|oncontextmenu| Disparado quando o usuário clica com o botão direito em um elemento para abrir o menu de contexto|
+|onfocus| Dispara no momento em que o elemento obtém o foco|
+|oninput| Disparado quando um elemento obtém a entrada do usuário|
+|oninvalid| Ocorre quando um elemento submittable input é inválido|
+|onselect| Acionado após algum texto ter sido selecionado em um elemento|
+
+## `Keyboard Events`
+|Atributo|Descrição|
+|:------:|:-------:|
+|onkeydown| Disparado quando o usuário pressiona uma tecla|
+|onkeypress| Disparado quando o usuário pressiona uma tecla|
+|onkeyup| Disparado quando o usuário libera uma tecla|
+
+## `Mouse Events`
+|Atributo|Descrição|
+|:------:|:-------:|
+|onclick| Dispara com um clique do mouse no elemento|
+|ondblclick| Acionado com um clique duplo do mouse no elemento|
+|onmousedown| Disparado quando um botão do mouse é pressionado no elemento|
+|onmousemove| Disparado quando o ponteiro está se movendo enquanto está sobre um elemento|
+|onmouseout| Disparado quando o ponteiro do mouse sai de um elemento|
+|onmouseover| Disparado quando o ponteiro do mouse se move sobre um elemento|
+|onmouseup| Disparado quando um botão do mouse é liberado sobre o elemento|
+|onwheel| Acionado quando a roda de um dispositivo apontador é rolada para cima ou para baixo sobre um elemento|
+## `Drag Events`
+|Atributo|Descrição|
+|:------:|:-------:|
+|ondrag| Acionado quando um elemento ou seleção de texto está sendo arrastado|
+|ondragend| Disparado quando o usuário termina de arrastar um elemento ou seleção de texto|
+|ondragenter| Acionado quando um elemento arrastável ou seleção de texto entra em um destino válido|
+|ondragleave| Acionado quando um elemento arrastável ou seleção de texto deixa um destino válido|
+|ondragover| Acionado quando um elemento arrastável ou seleção de texto está sendo arrastado sobre um destino válido|
+|ondragstart| Disparado quando o usuário começa a arrastar um elemento ou seleção de texto|
+|ondrop| Acionado quando um elemento arrastável ou seleção de texto é solto em um destino válido|
+|onscroll| Acionado quando a barra de rolagem de um elemento está sendo rolada|
+## `Clipboard Events`
+|Atributo|Descrição|
+|:------:|:-------:|
+|oncopy| Disparado quando o usuário copia o conteúdo de um elemento|
+|oncut| Disparado quando o usuário corta o conteúdo de um elemento|
+|onpaste| Disparado quando o usuário cola algum conteúdo em um elemento|
