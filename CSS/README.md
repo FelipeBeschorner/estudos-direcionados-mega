@@ -114,148 +114,155 @@ p {
 ## `Propriedades`  
 ## **A**  
 
-## **Propriedade**
-Descrição e uso.
+## **align-content**
+Alinha linhas flexíveis. Modifica o comportamento da propriedade flex-wrap.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|     11    |
+|Chrome|   28    |
+|Mozila|   21    |
+|Safari|       9 |
+|Opera|      12.1|
 ***
-## **Propriedade**
-Descrição e uso.
+## **align-items**
+Especifica o alinhamento de itens flexíveis.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|       11    |
+|Chrome|       20  |
+|Mozila|    21     |
+|Safari|       9   |
+|Opera|      12.1  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **align-self**
+Especifica o alinhamento do item selecionado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|        11   |
+|Chrome|     20    |
+|Mozila|      12   |
+|Safari|       9  |
+|Opera|        12.1  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **all**
+Redefine todas as propriedades para seu valor inicial.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|     79      |
+|Chrome|     27    |
+|Mozila|   37      |
+|Safari|     9.1    |
+|Opera|       24   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation**
+Abreviação de: 
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+animation-fill-mode
+animation-play-state
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|       30   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation-delay**
+Especifica o tempo para início da animação.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation-direction**
+Define se a nimação deve ocorrer para frente, para tras ou em ciclos alternados.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation-duration**
+Define o tempo para a animação completar um ciclo.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation-fill-mode**
+Especifica o estilo do elemento quando a animação não está sendo reproduzida.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation-iteration-count**
+Especifica o número de vezes que a animação será reproduzida.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation-name**
+Especifica um nome para a animação de @keyframes.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **animation-play-state**
+Especifica se a animação está sendo reproduzida ou pausada.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
-## **Propriedade**
-Descrição e uso.
-
+## **animation-timing-function**
+Especifica o temo de mudanaça entre um conjunto de estilos CSS.
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Chrome|         |
-|Mozila|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Chrome|  16       |
+|Mozila|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
 ## **B**  
 ## **Propriedade**
