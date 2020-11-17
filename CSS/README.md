@@ -1389,1408 +1389,1266 @@ Especifica a espessura da fonte.
 |Opera|       3.5   |
 ***
 ## **G**  
-## **Propriedade**
-Descrição e uso.
+## **grid**
+Engloba todas as propriedades de grid.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-area**
+Especifica o tamanho e a localização de um item de grade em um layout de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-auto-columns**
+Define o tamanho das colunas em um conteiner de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-auto-flow**
+Controla como os intens colocados automaticamente são inseridos na grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-auto-rows**
+Define o tamanho das linhas de um conteiner de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-column**
+Especifica o tamanho e o local de um item de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-column-end**
+Define quantas colunas uma grade terá.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-column-gap**
+Define o espaço entre as colunas.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-column-start**
+Define em que linha a coluna começará.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-gap**
+Define a distância entre colunas e linhas de uma grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-row**
+Especifica o tamanho e a localização de um item de grade em um layout de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-row-end**
+Define quantas linhas um item irá abranger ou em qual linha o item terminará.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-row-gap**
+Define o tamanho da lacuna entre as linhas em um layout de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-row-start**
+Define qual linha o item começará.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-template**
+Propriedade abreviada para grid-template-rows, grid-template-columns, grid-template-areas.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-template-areas**
+Especifica áreas dentro do layout da grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-template-columns**
+Especifica o número e as larguras das colunas em um layout de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **grid-template-rows**
+Especifica o número e as alturas das linhas em um layout de grade.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  52       |
+|Chrome|    57     |
+|Safari|      10   |
+|Opera|         44 |
 ***
 ## **H**  
-## **Propriedade**
-Descrição e uso.
+## **height**
+Define a altura de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **hyphens**
+Define se a hifenização é permitida para criar mais oportunidades de quebra automática em uma linha de texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  43       |
+|Chrome|    55     |
+|Safari|      -webkit-5.1   |
+|Opera|          44|
 ***
 ## **I**  
-## **Propriedade**
-Descrição e uso.
+## **image-rendering**
+Dá uma dica ao navegador sobre quais aspectos de uma imagem são mais importantes para preservar quando a imagem é redimensionada.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  65       |
+|Chrome|    41     |
+|Safari|      10   |
+|Opera|         26 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **@import**
+Permite importar uma folha de estilo para outra folha de estilo.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|   1      |
+|Chrome|    1     |
+|Safari|     1    |
+|Opera|       3.5   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **isolation**
+Define se um elemento deve criar um novo conteúdo de empilhamento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  36       |
+|Chrome|    41     |
+|Safari|      7.1   |
+|Opera|          30|
 ***
 ## **J**  
-## **Propriedade**
-Descrição e uso.
+## **justify-content**
+Alinha os itens do contêiner flexível quando os itens não usam todo o espaço disponível no eixo principal.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  11         |
+|Mozila|  28       |
+|Chrome|    29     |
+|Safari|      9   |
+|Opera|        17  |
 ***
 ## **K**  
-## **Propriedade**
-Descrição e uso.
+## **@keyframes**
+Especifica o código da animação.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    43     |
+|Safari|      9   |
+|Opera|        30  |
 ***
 ## **L**  
-## **Propriedade**
-Descrição e uso.
+## **left**
+Afeta a posição horizontal de um elemento posicionado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|   1      |
+|Chrome|    1     |
+|Safari|     1    |
+|Opera|       5   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **letter-spacing**
+Aumenta ou diminui o espaço entre os caracteres em um texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **line-break**
+Especifica como / se quebrar linhas.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|    none     |
+|Chrome|   1      |
+|Safari|    none     |
+|Opera|     none     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **line-height**
+Especifica a altura de uma linha.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **list-style**
+Resumo de list-style-type, list-style-position, list-style-image.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **list-style-image**
+Substitui o marcador do item da lista por uma imagem.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **list-style-position**
+Especifica a posição dos marcadores de item da lista.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **list-style-type**
+Especifica o tipo de marcador de item de lista.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
 ## **M**  
-## **Propriedade**
-Descrição e uso.
+## **margin**
+Define as margens de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  6         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **margin-bottom**
+Define a margem inferior de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  6         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **margin-left**
+Define a margem esquerda de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  6         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **margin-right**
+Define a margem direita de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  6         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **margin-top**
+Define a margem superior de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  6         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **mask**
+Oculta um elemento censurando ou recortando a imagem em lugares específicos.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  12         |
+|Mozila|  53       |
+|Chrome|    -webkit-4     |
+|Safari|     -webkit-4    |
+|Opera|       -webkit-15   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **mask-type**
+Define o tipo de censura.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  53       |
+|Chrome|    24     |
+|Safari|      6.1   |
+|Opera|          15|
 ***
-## **Propriedade**
-Descrição e uso.
+## **max-height**
+Define a altura máxima de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   2      |
+|Opera|     7     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **max-width**
+Define a largura máxima de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|    2     |
+|Opera|      7    |
 ***
-## **Propriedade**
-Descrição e uso.
+## **@media**
+Usada em consultas de mídia para aplicar estilos diferentes para dispositivos / tipos de mídia diferentes.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    21     |
+|Safari|      4   |
+|Opera|        9  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **min-height**
+Define a altura mínima de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   2      |
+|Opera|     4     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **min-width**
+Define a largura mínima de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   2      |
+|Opera|     4     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **mix-blend-mode**
+Especifica como o conteúdo de um elemento deve se mesclar com seu plano de fundo
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **N**  
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  32       |
+|Chrome|    41     |
+|Safari|      8   |
+|Opera|        35  |
 ***
 ## **O**  
-## **Propriedade**
-Descrição e uso.
+## **object-fit**
+Usado para especificar como um ``<img>`` ou ``<video>`` deve ser redimensionado para caber em seu contêiner.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  16         |
+|Mozila|  36       |
+|Chrome|    31     |
+|Safari|      7.1   |
+|Opera|          19|
 ***
-## **Propriedade**
-Descrição e uso.
+## **object-position**
+É usada junto com o ajuste do objeto para especificar como um ``<img>`` ou ``<video>`` deve ser posicionado com as coordenadas x / y dentro de sua "própria caixa de conteúdo".
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  16         |
+|Mozila|  36       |
+|Chrome|    31     |
+|Safari|      7.1   |
+|Opera|          19|
 ***
-## **Propriedade**
-Descrição e uso.
+## **opacity**
+Define o nível de opacidade de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 2        |
+|Chrome|  4       |
+|Safari|   3.1      |
+|Opera|       9   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **order**
+Especifica a ordem de um item flexível em relação ao restante dos itens flexíveis dentro do mesmo contêiner.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  11         |
+|Mozila|  28       |
+|Chrome|    29     |
+|Safari|      9   |
+|Opera|        17  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **orphans**
+Define o número mínimo de linhas que devem ser deixadas no final de uma página quando ocorre uma quebra de página dentro de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|    none     |
+|Chrome|  25       |
+|Safari|    27     |
+|Opera|       12.1   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **outline**
+Linha desenhada ao redor dos elementos, fora das bordas, para fazer o elemento "se destacar".
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 1.5        |
+|Chrome|    1     |
+|Safari|     1.2    |
+|Opera|         7 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **outline-color**
+Especifica a cor de um contorno.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 1.5        |
+|Chrome|    1     |
+|Safari|     1.2    |
+|Opera|         7 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **outline-offset**
+Adiciona espaço entre um contorno e a borda ou borda de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  15         |
+|Mozila|  3.5       |
+|Chrome|     4    |
+|Safari|      3   |
+|Opera|        10.5  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **outline-style**
+Especifica o estilo de um contorno.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 1.5        |
+|Chrome|    1     |
+|Safari|     1.2    |
+|Opera|         7 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **outline-width**
+Especifica a largura de um contorno.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 1.5        |
+|Chrome|    1     |
+|Safari|     1.2    |
+|Opera|         7 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **overflow**
+Especifica o que deve acontecer se o conteúdo estourar a caixa de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **overflow-wrap**
+Especifica se o navegador pode ou não quebrar as linhas dentro das palavras para evitar o estouro. 
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  18         |
+|Mozila|  49       |
+|Chrome|    23     |
+|Safari|      6.1   |
+|Opera|          12.1|
 ***
-## **Propriedade**
-Descrição e uso.
+## **overflow-x**
+Especifica se é necessário cortar o conteúdo, adicionar uma barra de rolagem ou exibir o conteúdo de estouro de um elemento de nível de bloco, quando ele estourar nas bordas esquerda e direita.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3    |
+|Opera|       9.5   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **overflow-y**
+Propriedade especifica se é necessário cortar o conteúdo, adicionar uma barra de rolagem ou exibir o conteúdo de estouro de um elemento de nível de bloco, quando ele estourar nas bordas superior e inferior.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 1.5        |
+|Chrome|    4     |
+|Safari|     3    |
+|Opera|       9.5   |
 ***
 ## **P**  
-## **Propriedade**
-Descrição e uso.
+## **padding**
+Resume  padding-top, padding-right, padding-bottom, padding-left.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **padding-bottom**
+Define o preenchimento inferior de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **padding-left**
+Define o preenchimento esquerdo de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **padding-right**
+Define o preenchimento correto de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1     |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **padding-top**
+Define o preenchimento superior de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **page-break-after**
+Adiciona uma quebra de página após um elemento especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1.2      |
+|Opera|       7   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **page-break-before**
+Adiciona uma quebra de página antes de um elemento especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1.2      |
+|Opera|       7   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **page-break-inside**
+Define se uma quebra de página deve ser evitada dentro de um elemento especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 19        |
+|Chrome|   1      |
+|Safari|    1.3     |
+|Opera|        7  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **perspective**
+Usada para dar uma perspectiva a um elemento posicionado em 3D.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    36     |
+|Safari|      9   |
+|Opera|        23  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **perspective-origin**
+Define de qual posição o usuário está olhando para o elemento posicionado em 3D.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    36     |
+|Safari|      9   |
+|Opera|        23  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **pointer-events**
+Define se um elemento reage ou não a eventos de ponteiro.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  11         |
+|Mozila|  3.6       |
+|Chrome|     2    |
+|Safari|      4   |
+|Opera|        9  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **position**
+Especifica o tipo de método de posicionamento usado para um elemento
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1.2      |
+|Opera|       4   |
 ***
 ## **Q**  
-## **Propriedade**
-Descrição e uso.
+## **quotes**
+Define o tipo de aspas para aspas.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 1.5        |
+|Chrome|    11     |
+|Safari|      5.1   |
+|Opera|          4|
 ***
 ## **R**  
-## **Propriedade**
-Descrição e uso.
+## **resize**
+Define se como um elemento pode ser redimensionado pelo usuário.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  5       |
+|Chrome|   4      |
+|Safari|    4     |
+|Opera|      15    |
 ***
-## **Propriedade**
-Descrição e uso.
+## **right**
+Afeta a posição horizontal de um elemento posicionado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|   1      |
+|Chrome|    1     |
+|Safari|     1    |
+|Opera|       5   |
 ***
 ## **S**  
-## **Propriedade**
-Descrição e uso.
+## **scroll-behavior**
+Especifica se anima suavemente a posição de rolagem, em vez de um salto direto, quando o usuário clica em um link dentro de uma caixa rolável.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  36       |
+|Chrome|    61     |
+|Safari|      14   |
+|Opera|         48 |
 ***
 ## **T**  
-## **Propriedade**
-Descrição e uso.
+## **tab-size**
+Especifica a largura de um caractere de tabulação.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  -moz-4       |
+|Chrome|   21      |
+|Safari|     6.1    |
+|Opera|         15 |
 ***
-## **Propriedade**
-Descrição e uso.
+## **table-layout**
+Define o algoritmo usado para organizar as células, linhas e colunas da tabela.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5         |
+|Mozila| 1        |
+|Chrome|  14       |
+|Safari|    1     |
+|Opera|      7    |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-align**
+Especifica o alinhamento horizontal do texto em um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  3         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-align-last**
+Especifica como alinhar a última linha de um texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|   49      |
+|Chrome|     47    |
+|Safari|      none   |
+|Opera|        34  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-combine-upright**
+Especifica a combinação de vários caracteres no espaço de um único caractere.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  -ms-11         |
+|Mozila|  48       |
+|Chrome|    -webkit-48     |
+|Safari|     -webkit-    |
+|Opera|       -webkit-34   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-decoration**
+Especifica a decoração adicionada ao texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  3         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-decoration-color**
+Especifica a cor da decoração do texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  36       |
+|Chrome|    47     |
+|Safari|        -webkit-7.1 |
+|Opera|       44   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-decoration-line**
+Define o tipo de decoração de texto a ser usada.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  36       |
+|Chrome|    47     |
+|Safari|        -webkit-7.1 |
+|Opera|       44   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-decoration-style**
+Define o estilo da decoração do texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  36       |
+|Chrome|    57     |
+|Safari|      12.1   |
+|Opera|          44|
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-indent**
+Especifica o recuo da primeira linha em um bloco de texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  3         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-justify**
+Especifica o método de justificação do texto quando text-align é definido como "justify".
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|   55      |
+|Chrome|       none  |
+|Safari|     10    |
+|Opera|        none  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-orientation**
+Define a orientação do texto em uma linha.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  41       |
+|Chrome|    48     |
+|Safari|      14   |
+|Opera|         -webkit-35 |
 ***
-
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
+## **text-overflow**
+Especifica como o conteúdo transbordado que não é exibido deve ser sinalizado para o usuário.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  6         |
+|Mozila| 7        |
+|Chrome|  4       |
+|Safari|   3.1      |
+|Opera|       11   |
 ***
 
-## **Propriedade**
-Descrição e uso.
+## **text-shadow**
+Adiciona sombra ao texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  3.5       |
+|Chrome|     4    |
+|Safari|      4   |
+|Opera|        9.6  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-transform**
+Controla a capitalização do texto.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **text-underline-position**
+Especifica a posição do sublinhado que é definida usando a propriedade text-decoration
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    none       |
+|Mozila|   none      |
+|Chrome|   33      |
+|Safari|   none      |
+|Opera|    none      |
 ***
-## **Propriedade**
-Descrição e uso.
+## **top**
+Afeta a posição vertical de um elemento posicionado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5         |
+|Mozila|   1      |
+|Chrome| 1        |
+|Safari|  1       |
+|Opera|     6     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **transform**
+Aplica uma transformação 2D ou 3D a um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    36     |
+|Safari|      9   |
+|Opera|        23  |
 ***
-## **Propriedade**
-Descrição e uso.
+## **transform-origin**
+Permite que você altere a posição dos elementos transformados.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  0         |
+|Mozila| 16        |
+|Chrome|   36      |
+|Safari|     9    |
+|Opera|       23   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **transform-style**
+Especifica como os elementos aninhados são renderizados no espaço 3D.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  11         |
+|Mozila|  16       |
+|Chrome|    36     |
+|Safari|      9  |
+|Opera|        23 |
+***
+## **transition**
+Resume transition-property, transition-duration, transition-timing-function, transition-delay.
+
+|Navegador|Versão|
+|:--------|:----:|
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
+***
+## **transition-delay**
+Especifica quando o efeito de transição começará.
+
+|Navegador|Versão|
+|:--------|:----:|
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
+***
+## **transition-duration**
+Especifica quantos segundos (s) ou milissegundos (ms) um efeito de transição leva para ser concluído.
+
+|Navegador|Versão|
+|:--------|:----:|
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
+***
+
+## **transition-property**
+Especifica o nome da propriedade CSS ao qual o efeito de transição se destina.
+
+|Navegador|Versão|
+|:--------|:----:|
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
+***
+## **transition-timing-function**
+Especifica a curva de velocidade do efeito de transição.
+
+|Navegador|Versão|
+|:--------|:----:|
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
 ***
 ## **U**  
-## **Propriedade**
-Descrição e uso.
+## **unicode-bidi**
+Usada junto com a propriedade direction para definir ou retornar se o texto deve ser substituído para oferecer suporte a vários idiomas no mesmo documento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila| 1        |
+|Chrome|  2       |
+|Safari|   1.3      |
+|Opera|       9.2   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **user-select**
+Especifica se o texto de um elemento pode ser selecionado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  79         |
+|Mozila|  69       |
+|Chrome|    54     |
+|Safari|      -webkit-3.1   |
+|Opera|          41|
 ***
 ## **V**  
-## **Propriedade**
-Descrição e uso.
+## **vertical-align**
+Define o alinhamento vertical de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     4     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **visibility**
+Especifica se um elemento é ou não visível.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Propriedade**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     4     |
 ***
 ## **W**  
-## **Propriedade**
-Descrição e uso.
+## **white-space**
+Especifica como o espaço em branco dentro de um elemento é tratado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 3.5        |
+|Chrome|    1     |
+|Safari|     3    |
+|Opera|       9.5   |
 ***
-## **Propriedade**
-Descrição e uso.
+## **widows**
+Define o número mínimo de linhas que devem ser deixadas no topo de uma página quando ocorre uma quebra de página dentro de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|    none     |
+|Chrome|  25       |
+|Safari|    7     |
+|Opera|      12.1    |
 ***
-## **Propriedade**
-Descrição e uso.
+## **width**
+Define a largura de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **word-break**
+Especifica como as palavras devem ser interrompidas ao chegar ao final de uma linha.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|   15      |
+|Chrome|     4    |
+|Safari|      3.1   |
+|Opera|          15|
 ***
-## **Propriedade**
-Descrição e uso.
+## **word-spacing**
+Aumenta ou diminui o espaço em branco entre as palavras.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  6         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Propriedade**
-Descrição e uso.
+## **word-wrap**
+Permite que palavras longas possam ser quebradas e quebradas na próxima linha.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  5.5         |
+|Mozila|   3.5      |
+|Chrome|      4   |
+|Safari|       3.1  |
+|Opera|          10.5|
 ***
-## **Propriedade**
-Descrição e uso.
+## **writing-mode**
+Especifica se as linhas de texto são dispostas horizontal ou verticalmente.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  12         |
+|Mozila|  41       |
+|Chrome|    48     |
+|Safari|      11   |
+|Opera|         35 |
 ***
 ## **Z**  
-## **Propriedade**
-Descrição e uso.
+## **z-index**
+Especifica a ordem da pilha de um elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 3        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     4     |
 ***
 
 ## `Seletores`  
