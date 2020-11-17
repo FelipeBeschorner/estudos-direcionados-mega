@@ -2653,667 +2653,668 @@ Especifica a ordem da pilha de um elemento.
 
 ## `Seletores`  
 
-## **Seletor**
-Descrição e uso.
+## **.class**
+Seleciona elementos com um atributo de classe específico.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  Yes         |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **#id**
+Define o estilo do elemento com o ID especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***## **Seletor**
-Descrição e uso.
+|Edge|  Yes         |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
+***
+## **"*"**
+Seleciona todos os elementos.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 2        |
+|Chrome|  4       |
+|Safari|   3.1      |
+|Opera|       9.6   |
 ***
 
-## **Seletor**
-Descrição e uso.
+## **element**
+Seleciona todos os elementos com o nome de elemento especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  Yes         |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **element.class**
+Usado para selecionar o elemento especificado com a classe especificada.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  Yes         |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **element,element**
+Definir o estilo de vários elementos com o mesmo estilo, separe cada nome de elemento com uma vírgula.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  Yes         |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **element element**
+Usado para selecionar elementos dentro de elementos.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  Yes         |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **element>element**
+Usado para selecionar elementos com um pai específico.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7        |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **element+element**
+Usado para selecionar elementos que são colocados imediatamente após (não dentro) do primeiro elemento especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7        |
+|Mozila|Yes         |
+|Chrome|Yes         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **element1~element2**
+Corresponde às ocorrências de element2 que são precedidas por element1.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|      3.2   |
+|Opera|          9.6|
 ***
-## **Seletor**
-Descrição e uso.
+## **[attribute]**
+Usado para selecionar elementos com o atributo especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   2      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **[attribute=value]**
+Usado para selecionar elementos com o atributo e valor especificados.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   2      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **[attribute~=value]**
+Usado para selecionar elementos com um valor de atributo contendo uma palavra especificada.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   2      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **[attribute|=value]**
+Usado para selecionar elementos com o atributo especificado começando com o valor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   2      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **[attribute^=value]**
+Corresponde a cada elemento cujo valor de atributo começa com um valor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **[attribute$=value]**
+Corresponde a cada elemento cujo valor de atributo termina com um valor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **[attribute*=value]**
+Corresponde a cada elemento cujo valor de atributo contém um valor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:active**
+Usado para selecionar e estilizar o link ativo.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   2      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **::after**
+Insere algo após o conteúdo de cada elemento selecionado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    9       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        7  |
 ***
-## **Seletor**
-Descrição e uso.
+## **::before**
+Insere algo antes do conteúdo de cada elemento selecionado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    9       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        7  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:checked**
+corresponde a cada elemento ``<input>`` marcado e elemento ``<option>``.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    9       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:default**
+Seleciona o elemento de formulário padrão em um grupo de elementos relacionados.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    12       |
+|Mozila|   4      |
+|Chrome| 10        |
+|Safari|    5     |
+|Opera|        10  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:disabled**
+Corresponde a cada elemento desativado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    9       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:empty**
+Corresponde a todos os elementos que não possuem filhos.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    9       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:enabled**
+Corresponde a cada elemento ativado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    9       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:first-child**
+Usado para selecionar o seletor especificado, apenas se for o primeiro filho de seu pai.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    7       |
+|Mozila|   3      |
+|Chrome| 4        |
+|Safari|    3.1     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **::first-letter**
+Usado para adicionar um estilo à primeira letra do seletor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Seletor**
-Descrição e uso.
+## **::first-line**
+Usado para adicionar um estilo à primeira linha do seletor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     7     |
 ***
-## **Seletor**
-Descrição e uso.
+## **:first-of-type**
+Corresponde a cada elemento que é o primeiro filho, de um tipo específico, de seu pai.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|    9       |
+|Mozila|   3.5      |
+|Chrome| 4        |
+|Safari|    3.2     |
+|Opera|        9.6  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:focus**
+Usado para selecionar o elemento que está em foco.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 2        |
+|Chrome|  4       |
+|Safari|   3.1      |
+|Opera|       9.6   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:fullscreen**
+Usado para selecionar o (s) elemento (s) que estão no modo de tela inteira.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  -ms-12         |
+|Mozila|  -moz-64       |
+|Chrome|    -webkit-71     |
+|Safari|      -webkit-3.1   |
+|Opera|          -webkit-58|
 ***
-## **Seletor**
-Descrição e uso.
+## **:hover**
+Usado para selecionar elementos quando você passa o mouse sobre eles.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 2        |
+|Chrome|  4       |
+|Safari|   3.1      |
+|Opera|       9.6   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:in-range**
+Seleciona todos os elementos com um valor que está dentro de um intervalo especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  13*         |
+|Mozila|   50      |
+|Chrome|     53    |
+|Safari|       10.1  |
+|Opera|          40|
 ***
-## **Seletor**
-Descrição e uso.
+## **:indeterminate**
+Seleciona os elementos do formulário que estão em um estado indeterminado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  51         |
+|Mozila|Yes         |
+|Chrome|39         |
+|Safari|Yes         |
+|Opera| Yes         |
 ***
-## **Seletor**
-Descrição e uso.
+## **:invalid**
+Seleciona os elementos do formulário com um valor que não é validado de acordo com as configurações do elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  4       |
+|Chrome|   10      |
+|Safari|     5    |
+|Opera|       10   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:lang(language)**
+Usado para selecionar elementos com um atributo lang com o valor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 2        |
+|Chrome|  4       |
+|Safari|   3.1      |
+|Opera|       9.6   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:last-child**
+Corresponde a cada elemento que é o último filho de seu pai.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:last-of-type**
+Corresponde a cada elemento que é o último filho, de um tipo específico, de seu pai.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:link**
+Usado para selecionar links não visitados.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  7         |
+|Mozila| 2        |
+|Chrome|  4       |
+|Safari|   3.1      |
+|Opera|       9.6   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:not(selector)**
+Corresponde a cada elemento que NÃO é o elemento / seletor especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:nth-child(n)**
+Corresponde a cada elemento que é o n º criança, independentemente do tipo, de seu pai.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:nth-last-child(n)**
+Corresponde a cada elemento que é o n º criança, independentemente do tipo, de seu pai, a contar do último filho.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:nth-last-of-type(n)**
+Corresponde a cada elemento que é o n º criança, de um tipo particular, de seu pai, a contar do último filho.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:nth-of-type(n)**
+Corresponde a cada elemento que é o n th criança, de um tipo particular, da sua mãe.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:only-of-type**
+Corresponde a cada elemento que é o único filho de seu tipo, de seu pai.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:only-child**
+Corresponde a cada elemento que é o único filho de seu pai.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:optional**
+Seleciona os elementos do formulário que são opcionais.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  4       |
+|Chrome|   10      |
+|Safari|     5    |
+|Opera|       10   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:out-of-range**
+Seleciona todos os elementos com um valor que está fora de um intervalo especificado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|      13*     |
+|Mozila|       50  |
+|Chrome|  53       |
+|Safari|    10.1     |
+|Opera|         40 |
 ***
-## **Seletor**
-Descrição e uso.
+## **::placeholder**
+Seleciona elementos de formulário com texto de espaço reservado e permite definir o estilo do texto de espaço reservado.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  -ms-10         |
+|Mozila|  51       |
+|Chrome|    57     |
+|Safari|      10.1   |
+|Opera|          44|
 ***
-## **Seletor**
-Descrição e uso.
+## **:read-only**
+Seleciona elementos que são "somente leitura".
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  13         |
+|Mozila|  78       |
+|Chrome|    36     |
+|Safari|      9   |
+|Opera|        23  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:read-write**
+Seleciona os elementos do formulário que são "legíveis" e "graváveis".
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  13         |
+|Mozila|  78       |
+|Chrome|    36     |
+|Safari|      9   |
+|Opera|        23  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:required**
+Seleciona os elementos do formulário que são necessários.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  4       |
+|Chrome|   10      |
+|Safari|     5    |
+|Opera|       10   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:root**
+Corresponde ao elemento raiz do documento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **::selection**
+Corresponde à parte de um elemento que é selecionado por um usuário.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 62        |
+|Chrome|   4      |
+|Safari|    3.1     |
+|Opera|        10.1  |
 ***
-## **Seletor**
-Descrição e uso.
+## **:target**
+Usado para definir o estilo do elemento de destino ativo atual.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3.5        |
+|Chrome|    4     |
+|Safari|     3.2    |
+|Opera|         9.6 |
 ***
-## **Seletor**
-Descrição e uso.
+## **:valid**
+Seleciona os elementos do formulário com um valor que valida de acordo com as configurações do elemento.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  4       |
+|Chrome|   10      |
+|Safari|     5    |
+|Opera|       10   |
 ***
-## **Seletor**
-Descrição e uso.
+## **:visited**
+Usado para selecionar links visitados.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Seletor**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Seletor**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|   7        |
+|Mozila|  2       |
+|Chrome|   4      |
+|Safari|    3.1     |
+|Opera|        9.6  |
 ***
 ## `Funções`  
 
-## **Função**
-Descrição e uso.
+## **attr()**
+Retorna o valor de um atributo dos elementos selecionados.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  8         |
+|Mozila| 1        |
+|Chrome|  2       |
+|Safari|   3.1      |
+|Opera|       9   |
+***
+## **calc()**
+Executa um cálculo a ser usado como o valor da propriedade.
+
+|Navegador|Versão|
+|:--------|:----:|
+|Edge|  9         |
+|Mozila| 16        |
+|Chrome|   26      |
+|Safari|     7    |
+|Opera|       15   |
+***
+## **cubic-bezier()**
+Define uma curva Cúbica de Bezier.
+
+|Navegador|Versão|
+|:--------|:----:|
+|Edge|  10         |
+|Mozila|  4       |
+|Chrome|   4      |
+|Safari|    3.1     |
+|Opera|        10.5  |
 ***
 ## **Função**
 Descrição e uso.
@@ -3326,113 +3327,91 @@ Descrição e uso.
 |Safari|         |
 |Opera|          |
 ***
-## **Função**
-Descrição e uso.
+## **hsl()**
+Define as cores usando o modelo Hue-saturation-lightness (HSL).
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   3.1      |
+|Opera|       9.5   |
 ***
-## **Função**
-Descrição e uso.
+## **hsla()**
+Define cores usando o modelo Hue-saturation-lightness-alpha (HSLA).
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3        |
+|Chrome|  1       |
+|Safari|   3.1      |
+|Opera|       10   |
 ***
-## **Função**
-Descrição e uso.
+## **linear-gradient()**
+Define um gradiente linear como imagem de fundo.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
 ***
-## **Função**
-Descrição e uso.
+## **repeating-linear-gradient()**
+Usada para repetir gradientes lineares.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
 ***
-## **Função**
-Descrição e uso.
+## **repeating-radial-gradient()**
+Usada para repetir gradientes radiais.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  10         |
+|Mozila|  16       |
+|Chrome|    26     |
+|Safari|      6.1   |
+|Opera|          12.1|
 ***
-## **Função**
-Descrição e uso.
+## **rgb()**
+Define as cores usando o modelo Red-green-blue (RGB).
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  4         |
+|Mozila| 1        |
+|Chrome|  1       |
+|Safari|   1      |
+|Opera|     3.5     |
 ***
-## **Função**
-Descrição e uso.
+## **rgba()**
+Define as cores usando o modelo Red-green-blue-alpha (RGBA).
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  9         |
+|Mozila| 3        |
+|Chrome|  1       |
+|Safari|   3.1      |
+|Opera|       10   |
 ***
-## **Função**
-Descrição e uso.
+## **var()**
+Usada para inserir o valor de uma variável CSS.
 
 |Navegador|Versão|
 |:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Função**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
-***
-## **Função**
-Descrição e uso.
-
-|Navegador|Versão|
-|:--------|:----:|
-|Edge|           |
-|Mozila|         |
-|Chrome|         |
-|Safari|         |
-|Opera|          |
+|Edge|  15         |
+|Mozila|  31       |
+|Chrome|    49     |
+|Safari|      9.1   |
+|Opera|          36|
 ***
