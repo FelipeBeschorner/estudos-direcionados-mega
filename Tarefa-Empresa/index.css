@@ -1,98 +1,221 @@
-
+/* -----------------------------------
+ *  RESET/GLOBAL
+ * -------------------------------- */
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     font-family: Verdana, sans-serif;
 }
-header{
-    padding-left: 10%;
-    padding-right: 10%;
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+h1, h2, h3{
+    margin-top: 0;
+}
+p:last-child{
+    margin-bottom: 0;
 }
 a{
     text-decoration: none;
-    color: black;
 }
-ul{
-    list-style: none;
+blockquote:before,
+blockquote:after{
+    content: "\"";
 }
-#logo{
-    color: #0f5a9e;
+/* -----------------------------------
+ *  VARIAVEIS
+ * -------------------------------- */
+:root{
+    --largura: 1280px;
+    --highlightColor: #0f59a0;
 }
-.ImagemHeader{
-    background-color: #b6b6b6;
-    height: 250px;
-    margin-left: auto;
-    margin-right: auto;
+
+/* -----------------------------------
+ *  CLASSES
+ * -------------------------------- */
+.conteudoCentralizado{
+    width: var(--largura);
+    margin: 0 auto;
 }
-.ImagemHeader img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.alignRight{
+    text-align: right;
 }
-.TextHeader{
+.alignLeft{
+    text-align: left;
+}
+.alignCenter{
+    text-align: center;
+}
+.alignJustify{
+    text-align: justify;
+}
+.smallText{
+    font-size: 12px;
+}
+.italicText{
+    font-style: oblique;
+    font-family: initial;
+}
+/* -----------------------------------
+ *  HEADER
+ * -------------------------------- */
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin: 0px 5px;
     font-size: 25px;
     height: 75px;
 }
-.ListaHeader{
-    display: flex;
+h1{
+    margin-bottom: 0;
 }
-.ListaHeader a{
+h1 a{
     display: flex;
-    padding: 10px;
-    margin: 0px 5px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--highlightColor);
+}
+h1 a img{
+    width: 60px;
+}
+h1 a:hover{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 15px;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+nav ul li a{
+    color: black;
+}
+nav ul a:hover,
+nav ul a.active{
+    color: var(--highlightColor);
+    font-weight: bold;
+}
+#ImagemHeader{
+    background: #666 url("Empresa.jpg") no-repeat center;
+    /*background-color: #666;
+    background-image: url("Empresa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-size: var(--largura) auto;
+    height: 150px;
+}
+#ImagemHeader.ImagemHeaderAlt{
+    height: 250px;
 }
 
+/* -----------------------------------
+ *  CONTENT
+ * -------------------------------- */
 .content{
-    padding-left: 10%;
-    padding-right: 10%; 
     display: flex;
-    padding-top: 25px;
-    padding-bottom: 150px;
+    align-items: flex-start;
+    margin: 25px auto 100px;
 }
-.content h1{
-    font-size: 40px;
-    padding: 0px 0px 15px 0px;
-    font-weight: 100;
-    font-stretch: normal;
+.content article{
+    width: 75%;
 }
-.content p{
-    padding-bottom: 15px;
+.content aside{
+    width: 25%;
+    margin-left: 25px;
+    padding: 15px 20px;
 }
-.lateral{
+/* HOME */
+#homeContent aside{
+    background-color: var(--highlightColor);
+    color: white;
+}
+/* EMPRRESA */
+#empresaContent article{
+    width: 70%;
+}
+#empresaContent article ul{
+    list-style: square outside;
+    padding-left: 0;
+}
+#empresaContent aside{
+    width: 30%;
+    padding: 0;
+}
+#empresaContent aside figure{
+    margin: 0;
+}
+#empresaContent aside figure figcaption{
+    text-align: center;
+    background-color: #808080;
+    color: white;
+    line-height: 25px;
+    margin: -3px 0 0;
+}
+/* SERVIÇOS */
+#servicoContent article{
+    width: 70%;
+    padding-right: 40px;
+}
+#servicoContent table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#servicoContent tr{
+    line-height: 25px;
+}
+#servicoContent thead{
     background-color: #0f59a0;
     color: white;
-    padding: 20px 35px 20px 25px;
-    align-items: flex-end;
-    box-sizing: border-box;
-    width: 2000px;
 }
-.textoprincipal{
- padding-right: 50px;
+#servicoContent tbody tr{
+    border-bottom: 1px solid #808080;
 }
+#servicoContent aside{
+    color: #66615b;
+    width: 30%;
+    margin-left: 0;
+}
+#servicoContent aside blockquote{
+    margin: 0;
+    text-align: justify;
+    font-style: italic;
+    font-family: initial;
+    font-size: 20px;
+    position: relative;
+}
+#servicoContent aside p{
+    margin-bottom: 5px;
+}
+/* CONTATO */
+#contatoContent{}
 
-.lateral h2{
-    padding-bottom: 25px;
-}
+/* -----------------------------------
+ *  FOOTER
+ * -------------------------------- */
 footer{
-    padding-left: 10%;
-    padding-right: 10%;
     background-color: #808080;
-    display: flex;
+    padding: 15px 0 10px;
+    color:white;
     height: 150px;
-    padding-top: 20px;
+}
+footer a{
+    color:white;
+}
+#contentFooter{
+    display: flex;
     justify-content: space-between;
-    color: white;
+    align-items: flex-start;
 }
-.footer a{
-    color: white;
+footer p{
+    font-size: 11px;
+    color: #dbdbdb;
+    padding-top: 45px;
 }
-.textfooterdireita{
-    direction: rtl;
+footer address{
+    line-height: 20px;
 }
-
