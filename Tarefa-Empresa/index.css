@@ -57,6 +57,14 @@ blockquote:after{
     font-style: oblique;
     font-family: initial;
 }
+.meiaColuna{
+    width: 50%;
+    margin-bottom: 15px;
+    float: left;
+}
+.inteiraColuna{
+    width: 100%;
+}
 /* -----------------------------------
  *  HEADER
  * -------------------------------- */
@@ -192,8 +200,57 @@ nav ul a.active{
     margin-bottom: 5px;
 }
 /* CONTATO */
-#contatoContent{}
-
+#contatoContent form{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+#contatoContent form input,select{
+    height: 35px;
+}
+#contatoContent form input,select,textarea{
+    border: solid 1px #cccccc;
+}
+#contatoContent form input[type="radio"]{
+    height: 15px;
+}
+#contatoContent form input[type="checkbox"]{
+    height: 15px;
+}
+#contatoContent form input[type="submit"]{
+    margin-top: 20px;
+    width: 20%;
+    height: 50px;
+    background-color: #0f59a0;
+    color: white;
+    font-weight: bolder;
+    
+}
+#contatoContent form .formField{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#contatoContent form .formField.formFieldRow{
+    flex-direction: row;
+}
+#contatoContent form .formField label{
+    margin-bottom: 5px;
+}
+#contatoContent form .formField.formFieldRequired label:after{
+    content: "*";
+    color: #F00;
+}
+#contatoContent form .formField input[type='radio']:first-child{
+    margin-left: 0;
+}
+#contatoContent form .formColumnHalf{
+    display: flex;
+    justify-content: space-between;
+}
+#contatoContent form .formColumnHalf .formField{
+    width: 49%;
+}
 /* -----------------------------------
  *  FOOTER
  * -------------------------------- */

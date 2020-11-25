@@ -8,7 +8,7 @@
     <body>
         <header class="conteudoCentralizado">
             <h1>
-                <a href="index.html">
+                <a href="home.html">
                     <img src="Logo.png" alt="Logo">
                     LARANJA
                 </a>
@@ -26,21 +26,52 @@
         <section id="contatoContent" class="conteudoCentralizado content">
             <article>
                 <h2>Contato</h2>
+                <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
                 <form>
-                    <label for="nome">Nome</label><br>
-                    <input type="text" id="nome" name="nome"/><br>
-                    <label for="empresa">Empresa</label><br>
-                    <input type="text" id="empresa" name="empresa"/><br>
-                    <label for="mail">E-mail</label><br>
-                    <input type="mail" id="mail" name="mail"/><br>
-                    <label for="tel">Telefone</label><br>
-                    <input type="tel" id="tel" name="tel"/><br>
-                    <label for="rad1">Departamento Comercial</label>
-                    <input type="radio" id="rad1" name="rad1"/>
-                    <label for="rad2">Financeiro</label>
-                    <input type="radio" id="rad2" name="rad2"/>
-                    <label for="rad3">Suporte</label>
-                    <input type="radio" id="rad3" name="rad3"/>
+                    <div class="formColumnHalf">
+                        <div class="formField formFieldRequired">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" maxlength="20" required/>
+                        </div>
+                        <div class="formField">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa" maxlength="25"/>
+                        </div>
+                    </div>
+                    <div class="formField formFieldRequired">
+                        <label for="mail">E-mail</label>
+                        <input type="mail" id="mail" name="mail" maxlength="40" required/>
+                    </div>
+                    <div class="formColumnHalf">
+                        <div class="formField formFieldRequired">
+                            <label for="tel">Telefone</label>
+                            <input type="tel" id="tel" name="tel" maxlength="12" required/>
+                        </div>
+                        <div class="formField">
+                            <label for="rad">Departamento</label> 
+                            <div>
+                                <input type="radio" id="rad1" name="rad" value="Comercial"/><label for="rad1">Comercial</label>
+                                <input type="radio" id="rad2" name="rad" value="financeiro"/>Financeiro
+                                <input type="radio" id="rad3" name="rad" value="Suporte"/>Suporte
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formField formFieldRequired">
+                        <label for="assunto">Assunto</label>
+                        <select name="assunto" id="assunto" required>
+                            <option value="selecione">--Selecione--</option>
+                        </select>
+                    </div>
+                    <div class="formField formFieldRequired">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" cols="40" rows="10" required></textarea>
+                    </div>
+                    <div class="formField formFieldRow">
+                        <input type="checkbox" id="check" name="check">Gostaria de receber a Newsletter da Empresa
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar Mensagem">
+                    </div>
                 </form>
             </article>
             <aside>
