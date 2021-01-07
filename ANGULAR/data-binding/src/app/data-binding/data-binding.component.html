@@ -1,0 +1,40 @@
+<section>
+  <article>
+    <h3>Title</h3>
+    <p>interpolação: {{ url }}</p>
+    <p>1+1 == {{ 1 + 1 }}</p>
+    <p>1+1 !={{ 1 + 1 + getValor() }}</p>
+    <p>
+      Curso de angular e gosto do curso: {{ cursoAngular && getCurtirCurso() }}
+    </p>
+  </article>
+  <article>
+    <h3>Proprienty binding</h3>
+    <img src="{{ urlImagem }}" />
+    <img [src]="urlImagem" />
+    <img bind-src="urlImagem" />
+  </article>
+  <article>
+    <h3>Class e Style binding</h3>
+    <div>
+      Selecione uma classe:
+      <select #classe (change)="(0)">
+        <option value="alert-primary">Primary</option>
+        <option value="alert-secondary">Secondary</option>
+        <option value="alert-success">Success</option>
+        <option value="alert-danger">Danger</option>
+      </select>
+      <br /><br />
+      <div
+        class="alert"
+        role="alert"
+        [class.alert-primary]="classe.value == 'alert-primary'"
+      >
+        Primary
+      </div>
+      <div class="alert" role="alert">Secondary</div>
+      <div class="alert" role="alert">Success</div>
+      <div class="alert" role="alert">Danger</div>
+    </div>
+  </article>
+</section>
